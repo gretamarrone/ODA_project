@@ -1,0 +1,1801 @@
+[
+    {
+     "ObjectId": 1,
+     "Country": "Afghanistan, Islamic Rep. of",
+     "ISO2": "AF",
+     "sum_1": 4.5760000000000005,
+     "sum_2": 25.473,
+     "mean": 0.48466129032258065
+    },
+    {
+     "ObjectId": 2,
+     "Country": "Albania",
+     "ISO2": "AL",
+     "sum_1": 2.3120000000000003,
+     "sum_2": 26.914,
+     "mean": 0.47138709677419355
+    },
+    {
+     "ObjectId": 3,
+     "Country": "Algeria",
+     "ISO2": "DZ",
+     "sum_1": 12.075,
+     "sum_2": 32.867000000000004,
+     "mean": 0.7248709677419355
+    },
+    {
+     "ObjectId": 4,
+     "Country": "American Samoa",
+     "ISO2": "AS",
+     "sum_1": 5.425,
+     "sum_2": 22.676000000000002,
+     "mean": 0.47628813559322036
+    },
+    {
+     "ObjectId": 5,
+     "Country": "Andorra, Principality of",
+     "ISO2": "AD",
+     "sum_1": 14.169,
+     "sum_2": 34.98500000000001,
+     "mean": 0.7928064516129032
+    },
+    {
+     "ObjectId": 6,
+     "Country": "Angola",
+     "ISO2": "AO",
+     "sum_1": 8.293000000000001,
+     "sum_2": 21.56,
+     "mean": 0.4815
+    },
+    {
+     "ObjectId": 7,
+     "Country": "Anguilla",
+     "ISO2": "AI",
+     "sum_1": 7.311999999999999,
+     "sum_2": 17.748999999999995,
+     "mean": 0.4042096774193549
+    },
+    {
+     "ObjectId": 8,
+     "Country": "Antigua and Barbuda",
+     "ISO2": "AG",
+     "sum_1": 7.350000000000001,
+     "sum_2": 16.82,
+     "mean": 0.39622950819672126
+    },
+    {
+     "ObjectId": 9,
+     "Country": "Argentina",
+     "ISO2": "AR",
+     "sum_1": 6.968000000000001,
+     "sum_2": 13.475,
+     "mean": 0.3297258064516129
+    },
+    {
+     "ObjectId": 10,
+     "Country": "Armenia, Rep. of",
+     "ISO2": "AM",
+     "sum_1": 2.809,
+     "sum_2": 31.214000000000002,
+     "mean": 1.0975161290322584
+    },
+    {
+     "ObjectId": 11,
+     "Country": "Aruba, Kingdom of the Netherlands",
+     "ISO2": "AW",
+     "sum_1": 4.5489999999999995,
+     "sum_2": 13.925000000000004,
+     "mean": 0.40160869565217394
+    },
+    {
+     "ObjectId": 12,
+     "Country": "Australia",
+     "ISO2": "AU",
+     "sum_1": 10.232,
+     "sum_2": 19.930000000000003,
+     "mean": 0.4864838709677421
+    },
+    {
+     "ObjectId": 13,
+     "Country": "Austria",
+     "ISO2": "AT",
+     "sum_1": 11.864,
+     "sum_2": 38.317,
+     "mean": 0.8093709677419355
+    },
+    {
+     "ObjectId": 14,
+     "Country": "Azerbaijan, Rep. of",
+     "ISO2": "AZ",
+     "sum_1": 2.4960000000000004,
+     "sum_2": 32.306,
+     "mean": 1.1226451612903225
+    },
+    {
+     "ObjectId": 15,
+     "Country": "Bahamas, The",
+     "ISO2": "BS",
+     "sum_1": 8.679,
+     "sum_2": 17.875,
+     "mean": 0.42829032258064526
+    },
+    {
+     "ObjectId": 16,
+     "Country": "Bahrain, Kingdom of",
+     "ISO2": "BH",
+     "sum_1": 7.699999999999999,
+     "sum_2": 38.028999999999996,
+     "mean": 0.7375645161290323
+    },
+    {
+     "ObjectId": 17,
+     "Country": "Bangladesh",
+     "ISO2": "BD",
+     "sum_1": -0.10699999999999998,
+     "sum_2": 14.53,
+     "mean": 0.23262903225806453
+    },
+    {
+     "ObjectId": 18,
+     "Country": "Barbados",
+     "ISO2": "BB",
+     "sum_1": 4.89,
+     "sum_2": 10.717,
+     "mean": 0.2837636363636364
+    },
+    {
+     "ObjectId": 19,
+     "Country": "Belarus, Rep. of",
+     "ISO2": "BY",
+     "sum_1": 6.231999999999999,
+     "sum_2": 40.63099999999999,
+     "mean": 1.5117096774193546
+    },
+    {
+     "ObjectId": 20,
+     "Country": "Belgium",
+     "ISO2": "BE",
+     "sum_1": 0,
+     "sum_2": 35.106,
+     "mean": 1.5263478260869565
+    },
+    {
+     "ObjectId": 21,
+     "Country": "Belize",
+     "ISO2": "BZ",
+     "sum_1": 8.870000000000001,
+     "sum_2": 21.279,
+     "mean": 0.4862741935483872
+    },
+    {
+     "ObjectId": 22,
+     "Country": "Benin",
+     "ISO2": "BJ",
+     "sum_1": 9.987,
+     "sum_2": 21.359999999999996,
+     "mean": 0.5055967741935484
+    },
+    {
+     "ObjectId": 23,
+     "Country": "Bhutan",
+     "ISO2": "BT",
+     "sum_1": 2.1529999999999996,
+     "sum_2": 21.884,
+     "mean": 0.3876935483870968
+    },
+    {
+     "ObjectId": 24,
+     "Country": "Bolivia",
+     "ISO2": "BO",
+     "sum_1": 10.224999999999998,
+     "sum_2": 18.504999999999995,
+     "mean": 0.4633870967741936
+    },
+    {
+     "ObjectId": 25,
+     "Country": "Bosnia and Herzegovina",
+     "ISO2": "BA",
+     "sum_1": 4.624,
+     "sum_2": 32.90099999999999,
+     "mean": 1.210483870967742
+    },
+    {
+     "ObjectId": 26,
+     "Country": "Botswana",
+     "ISO2": "BW",
+     "sum_1": 6.895,
+     "sum_2": 6.753,
+     "mean": 0.2201290322580645
+    },
+    {
+     "ObjectId": 27,
+     "Country": "Brazil",
+     "ISO2": "BR",
+     "sum_1": 9.616,
+     "sum_2": 24.093999999999998,
+     "mean": 0.5437096774193548
+    },
+    {
+     "ObjectId": 28,
+     "Country": "British Virgin Islands",
+     "ISO2": "VG",
+     "sum_1": 7.697,
+     "sum_2": 18.235,
+     "mean": 0.418258064516129
+    },
+    {
+     "ObjectId": 29,
+     "Country": "Brunei Darussalam",
+     "ISO2": "BN",
+     "sum_1": 7.4430000000000005,
+     "sum_2": 23.986,
+     "mean": 0.5069193548387096
+    },
+    {
+     "ObjectId": 30,
+     "Country": "Bulgaria",
+     "ISO2": "BG",
+     "sum_1": 3.013000000000001,
+     "sum_2": 29.762,
+     "mean": 0.5286290322580646
+    },
+    {
+     "ObjectId": 31,
+     "Country": "Burkina Faso",
+     "ISO2": "BF",
+     "sum_1": 11.599,
+     "sum_2": 22.192999999999998,
+     "mean": 0.5450322580645163
+    },
+    {
+     "ObjectId": 32,
+     "Country": "Burundi",
+     "ISO2": "BI",
+     "sum_1": 2.8369999999999997,
+     "sum_2": 4.742,
+     "mean": 0.26134482758620686
+    },
+    {
+     "ObjectId": 33,
+     "Country": "Cabo Verde",
+     "ISO2": "CV",
+     "sum_1": 18.026000000000003,
+     "sum_2": 28.494,
+     "mean": 0.8161403508771932
+    },
+    {
+     "ObjectId": 34,
+     "Country": "Cambodia",
+     "ISO2": "KH",
+     "sum_1": 9.829,
+     "sum_2": 19.435000000000002,
+     "mean": 0.47199999999999986
+    },
+    {
+     "ObjectId": 35,
+     "Country": "Cameroon",
+     "ISO2": "CM",
+     "sum_1": 6.214999999999999,
+     "sum_2": 20.866,
+     "mean": 0.4367903225806451
+    },
+    {
+     "ObjectId": 36,
+     "Country": "Canada",
+     "ISO2": "CA",
+     "sum_1": 9.23,
+     "sum_2": 31.075000000000006,
+     "mean": 0.6500806451612902
+    },
+    {
+     "ObjectId": 37,
+     "Country": "Cayman Islands",
+     "ISO2": "KY",
+     "sum_1": 15.815,
+     "sum_2": 18.271,
+     "mean": 0.6312222222222222
+    },
+    {
+     "ObjectId": 38,
+     "Country": "Central African Rep.",
+     "ISO2": "CF",
+     "sum_1": 6.812,
+     "sum_2": 21.174,
+     "mean": 0.45138709677419364
+    },
+    {
+     "ObjectId": 39,
+     "Country": "Chad",
+     "ISO2": "TD",
+     "sum_1": 6.769,
+     "sum_2": 21.601000000000003,
+     "mean": 0.45758064516129043
+    },
+    {
+     "ObjectId": 40,
+     "Country": "Chile",
+     "ISO2": "CL",
+     "sum_1": 5.888000000000001,
+     "sum_2": 10.55,
+     "mean": 0.2651290322580645
+    },
+    {
+     "ObjectId": 41,
+     "Country": "China, P.R.: Hong Kong",
+     "ISO2": "HK",
+     "sum_1": 3.8089999999999997,
+     "sum_2": 22.035999999999998,
+     "mean": 0.41685483870967743
+    },
+    {
+     "ObjectId": 42,
+     "Country": "China, P.R.: Macao",
+     "ISO2": "MO",
+     "sum_1": 3.8089999999999997,
+     "sum_2": 22.035999999999998,
+     "mean": 0.41685483870967743
+    },
+    {
+     "ObjectId": 43,
+     "Country": "China, P.R.: Mainland",
+     "ISO2": "CN",
+     "sum_1": 8.699,
+     "sum_2": 27.639,
+     "mean": 0.5860967741935484
+    },
+    {
+     "ObjectId": 44,
+     "Country": "Colombia",
+     "ISO2": "CO",
+     "sum_1": 5.273,
+     "sum_2": 18.549,
+     "mean": 0.38422580645161275
+    },
+    {
+     "ObjectId": 45,
+     "Country": "Comoros, Union of the",
+     "ISO2": "KM",
+     "sum_1": 4.046,
+     "sum_2": 12.453,
+     "mean": 0.27047540983606555
+    },
+    {
+     "ObjectId": 46,
+     "Country": "Congo, Dem. Rep. of the",
+     "ISO2": "CD",
+     "sum_1": 6.156000000000001,
+     "sum_2": 24.269000000000002,
+     "mean": 0.4907258064516129
+    },
+    {
+     "ObjectId": 47,
+     "Country": "Congo, Rep. of",
+     "ISO2": "CG",
+     "sum_1": 2.9489999999999994,
+     "sum_2": 21.962,
+     "mean": 0.4083770491803279
+    },
+    {
+     "ObjectId": 48,
+     "Country": "Cook Islands",
+     "ISO2": "CK",
+     "sum_1": 1.714,
+     "sum_2": 6.931,
+     "mean": 0.13943548387096774
+    },
+    {
+     "ObjectId": 49,
+     "Country": "Costa Rica",
+     "ISO2": "CR",
+     "sum_1": 8.000000000000002,
+     "sum_2": 8.207999999999998,
+     "mean": 0.40520000000000006
+    },
+    {
+     "ObjectId": 50,
+     "Country": "Croatia, Rep. of",
+     "ISO2": "HR",
+     "sum_1": 5.3260000000000005,
+     "sum_2": 34.477000000000004,
+     "mean": 1.2839677419354838
+    },
+    {
+     "ObjectId": 51,
+     "Country": "Cuba",
+     "ISO2": "CU",
+     "sum_1": 13.6,
+     "sum_2": 23.617,
+     "mean": 0.6002741935483871
+    },
+    {
+     "ObjectId": 52,
+     "Country": "Cyprus",
+     "ISO2": "CY",
+     "sum_1": 0.7640000000000001,
+     "sum_2": 25.549999999999997,
+     "mean": 0.4244193548387097
+    },
+    {
+     "ObjectId": 53,
+     "Country": "Czech Rep.",
+     "ISO2": "CZ",
+     "sum_1": 5.057,
+     "sum_2": 37.114000000000004,
+     "mean": 1.4056999999999997
+    },
+    {
+     "ObjectId": 54,
+     "Country": "Denmark",
+     "ISO2": "DK",
+     "sum_1": 10.338,
+     "sum_2": 34.602999999999994,
+     "mean": 0.7248548387096774
+    },
+    {
+     "ObjectId": 55,
+     "Country": "Djibouti",
+     "ISO2": "DJ",
+     "sum_1": 7.38,
+     "sum_2": 26.197000000000003,
+     "mean": 0.5504426229508197
+    },
+    {
+     "ObjectId": 56,
+     "Country": "Dominica",
+     "ISO2": "DM",
+     "sum_1": 7.167999999999999,
+     "sum_2": 16.622,
+     "mean": 0.38370967741935474
+    },
+    {
+     "ObjectId": 57,
+     "Country": "Dominican Rep.",
+     "ISO2": "DO",
+     "sum_1": 11.847000000000001,
+     "sum_2": 23.247000000000003,
+     "mean": 0.5660322580645162
+    },
+    {
+     "ObjectId": 58,
+     "Country": "Ecuador",
+     "ISO2": "EC",
+     "sum_1": 10.355,
+     "sum_2": 20.946,
+     "mean": 0.5048548387096774
+    },
+    {
+     "ObjectId": 59,
+     "Country": "Egypt, Arab Rep. of",
+     "ISO2": "EG",
+     "sum_1": -0.4230000000000006,
+     "sum_2": 22.618,
+     "mean": 0.3579838709677419
+    },
+    {
+     "ObjectId": 60,
+     "Country": "El Salvador",
+     "ISO2": "SV",
+     "sum_1": 8.771,
+     "sum_2": 16.588,
+     "mean": 0.40901612903225804
+    },
+    {
+     "ObjectId": 61,
+     "Country": "Equatorial Guinea, Rep. of",
+     "ISO2": "GQ",
+     "sum_1": 4.866,
+     "sum_2": 20.559,
+     "mean": 0.42374999999999996
+    },
+    {
+     "ObjectId": 62,
+     "Country": "Eritrea, The State of",
+     "ISO2": "ER",
+     "sum_1": 1.6309999999999998,
+     "sum_2": 23.570999999999998,
+     "mean": 0.9693076923076922
+    },
+    {
+     "ObjectId": 63,
+     "Country": "Estonia, Rep. of",
+     "ISO2": "EE",
+     "sum_1": 6.909,
+     "sum_2": 41.31399999999999,
+     "mean": 1.5555806451612904
+    },
+    {
+     "ObjectId": 64,
+     "Country": "Eswatini, Kingdom of",
+     "ISO2": "SZ",
+     "sum_1": 7.7989999999999995,
+     "sum_2": 18.834,
+     "mean": 0.4295645161290322
+    },
+    {
+     "ObjectId": 65,
+     "Country": "Ethiopia, The Federal Dem. Rep. of",
+     "ISO2": "ET",
+     "sum_1": 3.7180000000000004,
+     "sum_2": 26.456999999999994,
+     "mean": 1.0058333333333331
+    },
+    {
+     "ObjectId": 66,
+     "Country": "Falkland Islands (Malvinas)",
+     "ISO2": "FK",
+     "sum_1": 0.16800000000000015,
+     "sum_2": 0,
+     "mean": 0.008000000000000007
+    },
+    {
+     "ObjectId": 67,
+     "Country": "Faroe Islands",
+     "ISO2": "FO",
+     "sum_1": 4.2700000000000005,
+     "sum_2": 21.307999999999996,
+     "mean": 0.4125483870967741
+    },
+    {
+     "ObjectId": 68,
+     "Country": "Fiji, Rep. of",
+     "ISO2": "FJ",
+     "sum_1": 4.704,
+     "sum_2": 18.936999999999998,
+     "mean": 0.3813064516129032
+    },
+    {
+     "ObjectId": 69,
+     "Country": "Finland",
+     "ISO2": "FI",
+     "sum_1": 9.201000000000002,
+     "sum_2": 40.010000000000005,
+     "mean": 0.793725806451613
+    },
+    {
+     "ObjectId": 70,
+     "Country": "France",
+     "ISO2": "FR",
+     "sum_1": 12.020999999999999,
+     "sum_2": 34.339999999999996,
+     "mean": 0.7477580645161291
+    },
+    {
+     "ObjectId": 71,
+     "Country": "French Polynesia",
+     "ISO2": "PF",
+     "sum_1": 5.963,
+     "sum_2": 15.405,
+     "mean": 0.3446451612903225
+    },
+    {
+     "ObjectId": 72,
+     "Country": "Gabon",
+     "ISO2": "GA",
+     "sum_1": 3.663,
+     "sum_2": 20.882999999999996,
+     "mean": 0.39590322580645154
+    },
+    {
+     "ObjectId": 73,
+     "Country": "Gambia, The",
+     "ISO2": "GM",
+     "sum_1": 18.935,
+     "sum_2": 29.002,
+     "mean": 0.7731774193548386
+    },
+    {
+     "ObjectId": 74,
+     "Country": "Georgia",
+     "ISO2": "GE",
+     "sum_1": 1.7820000000000005,
+     "sum_2": 28.336000000000002,
+     "mean": 0.9715483870967744
+    },
+    {
+     "ObjectId": 75,
+     "Country": "Germany",
+     "ISO2": "DE",
+     "sum_1": 11.345,
+     "sum_2": 36.239000000000004,
+     "mean": 0.767483870967742
+    },
+    {
+     "ObjectId": 76,
+     "Country": "Ghana",
+     "ISO2": "GH",
+     "sum_1": 10.891000000000002,
+     "sum_2": 22.35,
+     "mean": 0.5361451612903226
+    },
+    {
+     "ObjectId": 77,
+     "Country": "Gibraltar",
+     "ISO2": "GI",
+     "sum_1": 10.77,
+     "sum_2": 29.712,
+     "mean": 0.6529354838709678
+    },
+    {
+     "ObjectId": 78,
+     "Country": "Greece",
+     "ISO2": "GR",
+     "sum_1": -0.6660000000000001,
+     "sum_2": 22.334,
+     "mean": 0.3494838709677419
+    },
+    {
+     "ObjectId": 79,
+     "Country": "Greenland",
+     "ISO2": "GL",
+     "sum_1": -7.087999999999999,
+     "sum_2": 34.721,
+     "mean": 0.44569354838709674
+    },
+    {
+     "ObjectId": 80,
+     "Country": "Grenada",
+     "ISO2": "GD",
+     "sum_1": 6.037000000000001,
+     "sum_2": 17.540999999999997,
+     "mean": 0.38029032258064516
+    },
+    {
+     "ObjectId": 81,
+     "Country": "Guadeloupe",
+     "ISO2": "GP",
+     "sum_1": 7.267,
+     "sum_2": 17.293999999999997,
+     "mean": 0.3961451612903226
+    },
+    {
+     "ObjectId": 82,
+     "Country": "Guatemala",
+     "ISO2": "GT",
+     "sum_1": 8.038,
+     "sum_2": 18.611,
+     "mean": 0.4298225806451614
+    },
+    {
+     "ObjectId": 83,
+     "Country": "Guinea",
+     "ISO2": "GN",
+     "sum_1": 11.801000000000002,
+     "sum_2": 25.268000000000004,
+     "mean": 0.5978870967741936
+    },
+    {
+     "ObjectId": 84,
+     "Country": "Guinea-Bissau",
+     "ISO2": "GW",
+     "sum_1": 16.028,
+     "sum_2": 28.564,
+     "mean": 0.7192258064516127
+    },
+    {
+     "ObjectId": 85,
+     "Country": "Guyana",
+     "ISO2": "GY",
+     "sum_1": 7.157000000000001,
+     "sum_2": 24.185,
+     "mean": 0.5055161290322581
+    },
+    {
+     "ObjectId": 86,
+     "Country": "Haiti",
+     "ISO2": "HT",
+     "sum_1": 13.750000000000002,
+     "sum_2": 24.056,
+     "mean": 0.6097741935483871
+    },
+    {
+     "ObjectId": 87,
+     "Country": "Holy See",
+     "ISO2": "VA",
+     "sum_1": 7.49,
+     "sum_2": 28.471000000000004,
+     "mean": 0.5800161290322581
+    },
+    {
+     "ObjectId": 88,
+     "Country": "Honduras",
+     "ISO2": "HN",
+     "sum_1": 8.574000000000002,
+     "sum_2": 19.141,
+     "mean": 0.447016129032258
+    },
+    {
+     "ObjectId": 89,
+     "Country": "Hungary",
+     "ISO2": "HU",
+     "sum_1": 6.41,
+     "sum_2": 34.529,
+     "mean": 0.6603064516129032
+    },
+    {
+     "ObjectId": 90,
+     "Country": "Iceland",
+     "ISO2": "IS",
+     "sum_1": -0.6350000000000001,
+     "sum_2": 22.613,
+     "mean": 0.3544838709677419
+    },
+    {
+     "ObjectId": 91,
+     "Country": "India",
+     "ISO2": "IN",
+     "sum_1": 2.9749999999999996,
+     "sum_2": 15.543999999999997,
+     "mean": 0.2986935483870968
+    },
+    {
+     "ObjectId": 92,
+     "Country": "Indonesia",
+     "ISO2": "ID",
+     "sum_1": 5.986000000000001,
+     "sum_2": 17.062,
+     "mean": 0.37174193548387097
+    },
+    {
+     "ObjectId": 93,
+     "Country": "Iran, Islamic Rep. of",
+     "ISO2": "IR",
+     "sum_1": 8.308,
+     "sum_2": 34.954,
+     "mean": 0.697774193548387
+    },
+    {
+     "ObjectId": 94,
+     "Country": "Iraq",
+     "ISO2": "IQ",
+     "sum_1": 5.268,
+     "sum_2": 33.831,
+     "mean": 0.6306290322580644
+    },
+    {
+     "ObjectId": 95,
+     "Country": "Ireland",
+     "ISO2": "IE",
+     "sum_1": 6.223000000000001,
+     "sum_2": 20.880999999999993,
+     "mean": 0.43716129032258066
+    },
+    {
+     "ObjectId": 96,
+     "Country": "Isle of Man",
+     "ISO2": "IM",
+     "sum_1": 5.639,
+     "sum_2": 21.626000000000005,
+     "mean": 0.43975806451612903
+    },
+    {
+     "ObjectId": 97,
+     "Country": "Israel",
+     "ISO2": "IL",
+     "sum_1": -2.249,
+     "sum_2": 22.927000000000003,
+     "mean": 0.3335161290322581
+    },
+    {
+     "ObjectId": 98,
+     "Country": "Italy",
+     "ISO2": "IT",
+     "sum_1": 8.628,
+     "sum_2": 31.642000000000003,
+     "mean": 0.6495161290322582
+    },
+    {
+     "ObjectId": 99,
+     "Country": "Jamaica",
+     "ISO2": "JM",
+     "sum_1": 13.312,
+     "sum_2": 23.810999999999996,
+     "mean": 0.6292033898305083
+    },
+    {
+     "ObjectId": 100,
+     "Country": "Japan",
+     "ISO2": "JP",
+     "sum_1": 4.199,
+     "sum_2": 19.022000000000002,
+     "mean": 0.37453225806451607
+    },
+    {
+     "ObjectId": 101,
+     "Country": "Jordan",
+     "ISO2": "JO",
+     "sum_1": -1.4529999999999998,
+     "sum_2": 23.922,
+     "mean": 0.3624032258064517
+    },
+    {
+     "ObjectId": 102,
+     "Country": "Kazakhstan, Rep. of",
+     "ISO2": "KZ",
+     "sum_1": 5.244,
+     "sum_2": 35.887000000000015,
+     "mean": 1.3268064516129037
+    },
+    {
+     "ObjectId": 103,
+     "Country": "Kenya",
+     "ISO2": "KE",
+     "sum_1": 5.315,
+     "sum_2": 23.255000000000003,
+     "mean": 0.46080645161290334
+    },
+    {
+     "ObjectId": 104,
+     "Country": "Kiribati",
+     "ISO2": "KI",
+     "sum_1": 1.674,
+     "sum_2": 12.558,
+     "mean": 0.2453793103448276
+    },
+    {
+     "ObjectId": 105,
+     "Country": "Korea, Dem. People's Rep. of",
+     "ISO2": "KP",
+     "sum_1": 12.868,
+     "sum_2": 25.931,
+     "mean": 0.625790322580645
+    },
+    {
+     "ObjectId": 106,
+     "Country": "Korea, Rep. of",
+     "ISO2": "KR",
+     "sum_1": 7.656000000000001,
+     "sum_2": 22.467999999999996,
+     "mean": 0.4858709677419354
+    },
+    {
+     "ObjectId": 107,
+     "Country": "Kuwait",
+     "ISO2": "KW",
+     "sum_1": 8.932,
+     "sum_2": 38.99100000000001,
+     "mean": 0.772951612903226
+    },
+    {
+     "ObjectId": 108,
+     "Country": "Kyrgyz Rep.",
+     "ISO2": "KG",
+     "sum_1": 3.866,
+     "sum_2": 31.208,
+     "mean": 1.13141935483871
+    },
+    {
+     "ObjectId": 109,
+     "Country": "Lao People's Dem. Rep.",
+     "ISO2": "LA",
+     "sum_1": 9.455,
+     "sum_2": 22.892000000000003,
+     "mean": 0.5217258064516128
+    },
+    {
+     "ObjectId": 110,
+     "Country": "Latvia",
+     "ISO2": "LV",
+     "sum_1": 6.877,
+     "sum_2": 40.03900000000001,
+     "mean": 1.51341935483871
+    },
+    {
+     "ObjectId": 111,
+     "Country": "Lebanon",
+     "ISO2": "LB",
+     "sum_1": 0.0900000000000003,
+     "sum_2": 26.282,
+     "mean": 0.4253548387096775
+    },
+    {
+     "ObjectId": 112,
+     "Country": "Lesotho, Kingdom of",
+     "ISO2": "LS",
+     "sum_1": 11.421000000000001,
+     "sum_2": 20.698999999999998,
+     "mean": 0.5180645161290324
+    },
+    {
+     "ObjectId": 113,
+     "Country": "Liberia",
+     "ISO2": "LR",
+     "sum_1": 12.031,
+     "sum_2": 26.531000000000002,
+     "mean": 0.6219677419354838
+    },
+    {
+     "ObjectId": 114,
+     "Country": "Libya",
+     "ISO2": "LY",
+     "sum_1": 4.747999999999999,
+     "sum_2": 23.504,
+     "mean": 0.4556774193548386
+    },
+    {
+     "ObjectId": 115,
+     "Country": "Liechtenstein",
+     "ISO2": "LI",
+     "sum_1": 12.53,
+     "sum_2": 36.44199999999999,
+     "mean": 0.7898709677419355
+    },
+    {
+     "ObjectId": 116,
+     "Country": "Lithuania",
+     "ISO2": "LT",
+     "sum_1": 6.477,
+     "sum_2": 38.899,
+     "mean": 1.4637419354838712
+    },
+    {
+     "ObjectId": 117,
+     "Country": "Luxembourg",
+     "ISO2": "LU",
+     "sum_1": 0,
+     "sum_2": 36.44,
+     "mean": 1.5843478260869563
+    },
+    {
+     "ObjectId": 118,
+     "Country": "Madagascar, Rep. of",
+     "ISO2": "MG",
+     "sum_1": 6.389,
+     "sum_2": 20.487000000000002,
+     "mean": 0.4334838709677419
+    },
+    {
+     "ObjectId": 119,
+     "Country": "Malawi",
+     "ISO2": "MW",
+     "sum_1": 7.7780000000000005,
+     "sum_2": 21.815,
+     "mean": 0.4773064516129033
+    },
+    {
+     "ObjectId": 120,
+     "Country": "Malaysia",
+     "ISO2": "MY",
+     "sum_1": 9.076,
+     "sum_2": 24.744,
+     "mean": 0.545483870967742
+    },
+    {
+     "ObjectId": 121,
+     "Country": "Maldives",
+     "ISO2": "MV",
+     "sum_1": 7.783,
+     "sum_2": 16.346999999999998,
+     "mean": 0.4308928571428572
+    },
+    {
+     "ObjectId": 122,
+     "Country": "Mali",
+     "ISO2": "ML",
+     "sum_1": 13.889000000000001,
+     "sum_2": 24.047,
+     "mean": 0.6118709677419354
+    },
+    {
+     "ObjectId": 123,
+     "Country": "Malta",
+     "ISO2": "MT",
+     "sum_1": 8.839000000000002,
+     "sum_2": 30.554000000000002,
+     "mean": 0.6353709677419355
+    },
+    {
+     "ObjectId": 124,
+     "Country": "Marshall Islands, Rep. of the",
+     "ISO2": "MH",
+     "sum_1": 0.33299999999999996,
+     "sum_2": 8.000000000000002,
+     "mean": 0.26040625
+    },
+    {
+     "ObjectId": 125,
+     "Country": "Martinique",
+     "ISO2": "MQ",
+     "sum_1": 7.048000000000001,
+     "sum_2": 16.512,
+     "mean": 0.38
+    },
+    {
+     "ObjectId": 126,
+     "Country": "Mauritania, Islamic Rep. of",
+     "ISO2": "MR",
+     "sum_1": 21.222,
+     "sum_2": 34.18099999999999,
+     "mean": 0.8935967741935483
+    },
+    {
+     "ObjectId": 127,
+     "Country": "Mauritius",
+     "ISO2": "MU",
+     "sum_1": 6.3340000000000005,
+     "sum_2": 17.469999999999995,
+     "mean": 0.3839354838709677
+    },
+    {
+     "ObjectId": 128,
+     "Country": "Mayotte",
+     "ISO2": "YT",
+     "sum_1": 4.799,
+     "sum_2": 14.879,
+     "mean": 0.3279666666666667
+    },
+    {
+     "ObjectId": 129,
+     "Country": "Mexico",
+     "ISO2": "MX",
+     "sum_1": 5.194,
+     "sum_2": 21.882999999999996,
+     "mean": 0.4367258064516129
+    },
+    {
+     "ObjectId": 130,
+     "Country": "Micronesia, Federated States of",
+     "ISO2": "FM",
+     "sum_1": 0.17700000000000002,
+     "sum_2": 7.9830000000000005,
+     "mean": 0.255
+    },
+    {
+     "ObjectId": 131,
+     "Country": "Moldova, Rep. of",
+     "ISO2": "MD",
+     "sum_1": 2.8019999999999996,
+     "sum_2": 35.312000000000005,
+     "mean": 1.2294838709677418
+    },
+    {
+     "ObjectId": 132,
+     "Country": "Monaco",
+     "ISO2": "MC",
+     "sum_1": 10.308,
+     "sum_2": 33.827000000000005,
+     "mean": 0.7118548387096775
+    },
+    {
+     "ObjectId": 133,
+     "Country": "Mongolia",
+     "ISO2": "MN",
+     "sum_1": 19.989000000000004,
+     "sum_2": 35.53800000000001,
+     "mean": 0.8955967741935484
+    },
+    {
+     "ObjectId": 134,
+     "Country": "Montenegro",
+     "ISO2": "ME",
+     "sum_1": 0,
+     "sum_2": 25.118,
+     "mean": 1.4775294117647058
+    },
+    {
+     "ObjectId": 135,
+     "Country": "Montserrat",
+     "ISO2": "MS",
+     "sum_1": 7.350000000000001,
+     "sum_2": 16.82,
+     "mean": 0.39622950819672126
+    },
+    {
+     "ObjectId": 136,
+     "Country": "Morocco",
+     "ISO2": "MA",
+     "sum_1": 13.751000000000001,
+     "sum_2": 33.266,
+     "mean": 0.7583387096774195
+    },
+    {
+     "ObjectId": 137,
+     "Country": "Mozambique, Rep. of",
+     "ISO2": "MZ",
+     "sum_1": 6.126999999999999,
+     "sum_2": 17.364,
+     "mean": 0.37888709677419347
+    },
+    {
+     "ObjectId": 138,
+     "Country": "Myanmar",
+     "ISO2": "MM",
+     "sum_1": 7.002,
+     "sum_2": 22.575999999999997,
+     "mean": 0.4770645161290322
+    },
+    {
+     "ObjectId": 139,
+     "Country": "Namibia",
+     "ISO2": "NA",
+     "sum_1": 10.882000000000001,
+     "sum_2": 15.333,
+     "mean": 0.4228225806451612
+    },
+    {
+     "ObjectId": 140,
+     "Country": "Nauru, Rep. of",
+     "ISO2": "NR",
+     "sum_1": -0.6989999999999994,
+     "sum_2": 0,
+     "mean": -0.0367894736842105
+    },
+    {
+     "ObjectId": 141,
+     "Country": "Nepal",
+     "ISO2": "NP",
+     "sum_1": 0.31500000000000034,
+     "sum_2": 14.07,
+     "mean": 0.23201612903225807
+    },
+    {
+     "ObjectId": 142,
+     "Country": "Netherlands, The",
+     "ISO2": "NL",
+     "sum_1": 10.766,
+     "sum_2": 35.187000000000005,
+     "mean": 0.7411774193548387
+    },
+    {
+     "ObjectId": 143,
+     "Country": "New Caledonia",
+     "ISO2": "NC",
+     "sum_1": 12.846999999999998,
+     "sum_2": 27.893,
+     "mean": 0.6570967741935483
+    },
+    {
+     "ObjectId": 144,
+     "Country": "New Zealand",
+     "ISO2": "NZ",
+     "sum_1": 4.7490000000000006,
+     "sum_2": 14.074000000000002,
+     "mean": 0.3035967741935484
+    },
+    {
+     "ObjectId": 145,
+     "Country": "Nicaragua",
+     "ISO2": "NI",
+     "sum_1": 8.782,
+     "sum_2": 19.59,
+     "mean": 0.45761290322580644
+    },
+    {
+     "ObjectId": 146,
+     "Country": "Niger",
+     "ISO2": "NE",
+     "sum_1": 9.321,
+     "sum_2": 19.665000000000003,
+     "mean": 0.4675161290322581
+    },
+    {
+     "ObjectId": 147,
+     "Country": "Nigeria",
+     "ISO2": "NG",
+     "sum_1": 10.533000000000001,
+     "sum_2": 22.150999999999996,
+     "mean": 0.5271612903225806
+    },
+    {
+     "ObjectId": 148,
+     "Country": "Niue",
+     "ISO2": "NU",
+     "sum_1": 4.6979999999999995,
+     "sum_2": 0,
+     "mean": 0.16199999999999998
+    },
+    {
+     "ObjectId": 149,
+     "Country": "Norfolk Island",
+     "ISO2": "NF",
+     "sum_1": 5.496,
+     "sum_2": 9.446,
+     "mean": 0.2532542372881356
+    },
+    {
+     "ObjectId": 150,
+     "Country": "North Macedonia, Republic of ",
+     "ISO2": "MK",
+     "sum_1": 2.432,
+     "sum_2": 26.894,
+     "mean": 0.9460000000000001
+    },
+    {
+     "ObjectId": 151,
+     "Country": "Norway",
+     "ISO2": "NO",
+     "sum_1": 7.915000000000001,
+     "sum_2": 32.663999999999994,
+     "mean": 0.6545
+    },
+    {
+     "ObjectId": 152,
+     "Country": "Oman",
+     "ISO2": "OM",
+     "sum_1": -0.4130000000000005,
+     "sum_2": 19.404999999999998,
+     "mean": 0.30632258064516127
+    },
+    {
+     "ObjectId": 153,
+     "Country": "Pakistan",
+     "ISO2": "PK",
+     "sum_1": -0.6059999999999999,
+     "sum_2": 18.629,
+     "mean": 0.2906935483870968
+    },
+    {
+     "ObjectId": 154,
+     "Country": "Palau, Rep. of",
+     "ISO2": "PW",
+     "sum_1": 2.351,
+     "sum_2": 16.017,
+     "mean": 0.6559999999999999
+    },
+    {
+     "ObjectId": 155,
+     "Country": "Panama",
+     "ISO2": "PA",
+     "sum_1": 7.135,
+     "sum_2": 20.680000000000003,
+     "mean": 0.4795689655172414
+    },
+    {
+     "ObjectId": 156,
+     "Country": "Papua New Guinea",
+     "ISO2": "PG",
+     "sum_1": 7.174999999999999,
+     "sum_2": 14.106,
+     "mean": 0.34324193548387094
+    },
+    {
+     "ObjectId": 157,
+     "Country": "Paraguay",
+     "ISO2": "PY",
+     "sum_1": 7.573999999999999,
+     "sum_2": 16.353,
+     "mean": 0.38591935483870965
+    },
+    {
+     "ObjectId": 158,
+     "Country": "Peru",
+     "ISO2": "PE",
+     "sum_1": 9.669,
+     "sum_2": 20.275,
+     "mean": 0.4829677419354838
+    },
+    {
+     "ObjectId": 159,
+     "Country": "Philippines",
+     "ISO2": "PH",
+     "sum_1": 8.915999999999999,
+     "sum_2": 23.297,
+     "mean": 0.5195645161290323
+    },
+    {
+     "ObjectId": 160,
+     "Country": "Pitcairn Islands",
+     "ISO2": "PN",
+     "sum_1": -4.544,
+     "sum_2": -0.63,
+     "mean": -0.10559183673469388
+    },
+    {
+     "ObjectId": 161,
+     "Country": "Poland, Rep. of",
+     "ISO2": "PL",
+     "sum_1": 9.833999999999998,
+     "sum_2": 35.319,
+     "mean": 0.728274193548387
+    },
+    {
+     "ObjectId": 162,
+     "Country": "Portugal",
+     "ISO2": "PT",
+     "sum_1": 12.19,
+     "sum_2": 29.247,
+     "mean": 0.6683387096774192
+    },
+    {
+     "ObjectId": 163,
+     "Country": "Puerto Rico",
+     "ISO2": "PR",
+     "sum_1": 8.588999999999999,
+     "sum_2": 19.757,
+     "mean": 0.4571935483870967
+    },
+    {
+     "ObjectId": 164,
+     "Country": "Qatar",
+     "ISO2": "QA",
+     "sum_1": 5.408,
+     "sum_2": 34.067,
+     "mean": 0.6366935483870968
+    },
+    {
+     "ObjectId": 165,
+     "Country": "Romania",
+     "ISO2": "RO",
+     "sum_1": 3.6819999999999995,
+     "sum_2": 32.086999999999996,
+     "mean": 0.5769193548387096
+    },
+    {
+     "ObjectId": 166,
+     "Country": "Russian Federation",
+     "ISO2": "RU",
+     "sum_1": 6.446000000000001,
+     "sum_2": 40.352000000000004,
+     "mean": 1.5096129032258068
+    },
+    {
+     "ObjectId": 167,
+     "Country": "Rwanda",
+     "ISO2": "RW",
+     "sum_1": 3.0670000000000006,
+     "sum_2": 3.785,
+     "mean": 0.23627586206896553
+    },
+    {
+     "ObjectId": 168,
+     "Country": "Saint Helena",
+     "ISO2": "SH",
+     "sum_1": 12.771,
+     "sum_2": 32.614999999999995,
+     "mean": 0.7320322580645162
+    },
+    {
+     "ObjectId": 169,
+     "Country": "Saint Pierre and Miquelon",
+     "ISO2": "PM",
+     "sum_1": -6.528999999999998,
+     "sum_2": 19.758999999999997,
+     "mean": 0.21338709677419362
+    },
+    {
+     "ObjectId": 170,
+     "Country": "Samoa",
+     "ISO2": "WS",
+     "sum_1": 2.7150000000000003,
+     "sum_2": 20.643,
+     "mean": 0.39589830508474577
+    },
+    {
+     "ObjectId": 171,
+     "Country": "San Marino, Rep. of",
+     "ISO2": "SM",
+     "sum_1": 7.867000000000001,
+     "sum_2": 33.375,
+     "mean": 0.665193548387097
+    },
+    {
+     "ObjectId": 172,
+     "Country": "São Tomé and Príncipe, Dem. Rep. of",
+     "ISO2": "ST",
+     "sum_1": 5.86,
+     "sum_2": 22.028000000000002,
+     "mean": 0.4808275862068966
+    },
+    {
+     "ObjectId": 173,
+     "Country": "Saudi Arabia",
+     "ISO2": "SA",
+     "sum_1": 2.655,
+     "sum_2": 30.063000000000006,
+     "mean": 0.5277096774193549
+    },
+    {
+     "ObjectId": 174,
+     "Country": "Senegal",
+     "ISO2": "SN",
+     "sum_1": 19.416,
+     "sum_2": 29.201,
+     "mean": 0.7841451612903226
+    },
+    {
+     "ObjectId": 175,
+     "Country": "Serbia, Rep. of",
+     "ISO2": "RS",
+     "sum_1": 0,
+     "sum_2": 26.213,
+     "mean": 1.5419411764705884
+    },
+    {
+     "ObjectId": 176,
+     "Country": "Seychelles",
+     "ISO2": "SC",
+     "sum_1": 5.375,
+     "sum_2": 19.429000000000002,
+     "mean": 0.4000645161290323
+    },
+    {
+     "ObjectId": 177,
+     "Country": "Sierra Leone",
+     "ISO2": "SL",
+     "sum_1": 10.704999999999998,
+     "sum_2": 25.297,
+     "mean": 0.5901967213114756
+    },
+    {
+     "ObjectId": 178,
+     "Country": "Singapore",
+     "ISO2": "SG",
+     "sum_1": 4.805,
+     "sum_2": 18.488,
+     "mean": 0.5823250000000001
+    },
+    {
+     "ObjectId": 179,
+     "Country": "Slovak Rep.",
+     "ISO2": "SK",
+     "sum_1": 3.535,
+     "sum_2": 33.692,
+     "mean": 1.2409000000000001
+    },
+    {
+     "ObjectId": 180,
+     "Country": "Slovenia, Rep. of",
+     "ISO2": "SI",
+     "sum_1": 6.947,
+     "sum_2": 38.391,
+     "mean": 1.4625161290322581
+    },
+    {
+     "ObjectId": 181,
+     "Country": "Solomon Islands",
+     "ISO2": "SB",
+     "sum_1": 5.575,
+     "sum_2": 12.31,
+     "mean": 0.3374528301886792
+    },
+    {
+     "ObjectId": 182,
+     "Country": "Somalia",
+     "ISO2": "SO",
+     "sum_1": 8.311,
+     "sum_2": 25.056,
+     "mean": 0.5381774193548386
+    },
+    {
+     "ObjectId": 183,
+     "Country": "South Africa",
+     "ISO2": "ZA",
+     "sum_1": 9.673000000000002,
+     "sum_2": 19.37,
+     "mean": 0.4684354838709679
+    },
+    {
+     "ObjectId": 184,
+     "Country": "South Sudan, Rep. of",
+     "ISO2": "SS",
+     "sum_1": 0,
+     "sum_2": 13.77,
+     "mean": 1.1475
+    },
+    {
+     "ObjectId": 185,
+     "Country": "Spain",
+     "ISO2": "ES",
+     "sum_1": 12.841,
+     "sum_2": 31.159000000000006,
+     "mean": 0.7096774193548387
+    },
+    {
+     "ObjectId": 186,
+     "Country": "Sri Lanka",
+     "ISO2": "LK",
+     "sum_1": 8.071,
+     "sum_2": 19.963000000000005,
+     "mean": 0.4521612903225806
+    },
+    {
+     "ObjectId": 187,
+     "Country": "St. Kitts and Nevis",
+     "ISO2": "KN",
+     "sum_1": 7.350000000000001,
+     "sum_2": 16.82,
+     "mean": 0.39622950819672126
+    },
+    {
+     "ObjectId": 188,
+     "Country": "St. Lucia",
+     "ISO2": "LC",
+     "sum_1": 6.344,
+     "sum_2": 16.936,
+     "mean": 0.37548387096774194
+    },
+    {
+     "ObjectId": 189,
+     "Country": "St. Vincent and the Grenadines",
+     "ISO2": "VC",
+     "sum_1": 6.050999999999999,
+     "sum_2": 17.526999999999997,
+     "mean": 0.3802903225806452
+    },
+    {
+     "ObjectId": 190,
+     "Country": "Sudan",
+     "ISO2": "SD",
+     "sum_1": 0,
+     "sum_2": 12.475999999999999,
+     "mean": 1.0396666666666665
+    },
+    {
+     "ObjectId": 191,
+     "Country": "Suriname",
+     "ISO2": "SR",
+     "sum_1": 8.563,
+     "sum_2": 27.909000000000002,
+     "mean": 0.5882580645161292
+    },
+    {
+     "ObjectId": 192,
+     "Country": "Sweden",
+     "ISO2": "SE",
+     "sum_1": 9.894,
+     "sum_2": 36.775000000000006,
+     "mean": 0.7527258064516128
+    },
+    {
+     "ObjectId": 193,
+     "Country": "Switzerland",
+     "ISO2": "CH",
+     "sum_1": 12.328000000000003,
+     "sum_2": 36.408,
+     "mean": 0.7860645161290324
+    },
+    {
+     "ObjectId": 194,
+     "Country": "Syrian Arab Rep.",
+     "ISO2": "SY",
+     "sum_1": 1.7770000000000001,
+     "sum_2": 28.205999999999996,
+     "mean": 0.48359677419354835
+    },
+    {
+     "ObjectId": 195,
+     "Country": "Taiwan Province of China",
+     "ISO2": "TW",
+     "sum_1": 2.9329999999999994,
+     "sum_2": 19.886,
+     "mean": 0.3680483870967742
+    },
+    {
+     "ObjectId": 196,
+     "Country": "Tajikistan, Rep. of",
+     "ISO2": "TJ",
+     "sum_1": 3.0620000000000003,
+     "sum_2": 26.341,
+     "mean": 0.9484838709677417
+    },
+    {
+     "ObjectId": 197,
+     "Country": "Tanzania, United Rep. of",
+     "ISO2": "TZ",
+     "sum_1": 5.874,
+     "sum_2": 21.018000000000004,
+     "mean": 0.433741935483871
+    },
+    {
+     "ObjectId": 198,
+     "Country": "Thailand",
+     "ISO2": "TH",
+     "sum_1": 9.84,
+     "sum_2": 22.24,
+     "mean": 0.5174193548387096
+    },
+    {
+     "ObjectId": 199,
+     "Country": "Timor-Leste, Dem. Rep. of",
+     "ISO2": "TL",
+     "sum_1": 4.393,
+     "sum_2": 17.211000000000002,
+     "mean": 0.42360784313725497
+    },
+    {
+     "ObjectId": 200,
+     "Country": "Togo",
+     "ISO2": "TG",
+     "sum_1": 10.014,
+     "sum_2": 21.792,
+     "mean": 0.513
+    },
+    {
+     "ObjectId": 201,
+     "Country": "Tokelau",
+     "ISO2": "TK",
+     "sum_1": 4.312,
+     "sum_2": 0,
+     "mean": 0.1390967741935484
+    },
+    {
+     "ObjectId": 202,
+     "Country": "Tonga",
+     "ISO2": "TO",
+     "sum_1": 5.901,
+     "sum_2": 18.327,
+     "mean": 0.3907741935483871
+    },
+    {
+     "ObjectId": 203,
+     "Country": "Trinidad and Tobago",
+     "ISO2": "TT",
+     "sum_1": 5.523,
+     "sum_2": 18.345,
+     "mean": 0.3849677419354838
+    },
+    {
+     "ObjectId": 204,
+     "Country": "Tunisia",
+     "ISO2": "TN",
+     "sum_1": 12.328,
+     "sum_2": 34.733000000000004,
+     "mean": 0.759048387096774
+    },
+    {
+     "ObjectId": 205,
+     "Country": "Turkmenistan",
+     "ISO2": "TM",
+     "sum_1": 5.117999999999999,
+     "sum_2": 32.58,
+     "mean": 1.216064516129032
+    },
+    {
+     "ObjectId": 206,
+     "Country": "Turks and Caicos Islands",
+     "ISO2": "TC",
+     "sum_1": 9.259,
+     "sum_2": 22.719,
+     "mean": 0.5710357142857142
+    },
+    {
+     "ObjectId": 207,
+     "Country": "Tuvalu",
+     "ISO2": "TV",
+     "sum_1": 3.5609999999999995,
+     "sum_2": 17.537,
+     "mean": 0.3516333333333333
+    },
+    {
+     "ObjectId": 208,
+     "Country": "Uganda",
+     "ISO2": "UG",
+     "sum_1": 6.457,
+     "sum_2": 24.305,
+     "mean": 0.4961612903225806
+    },
+    {
+     "ObjectId": 209,
+     "Country": "Ukraine",
+     "ISO2": "UA",
+     "sum_1": 3.053,
+     "sum_2": 36.418,
+     "mean": 1.273258064516129
+    },
+    {
+     "ObjectId": 210,
+     "Country": "United Arab Emirates",
+     "ISO2": "AE",
+     "sum_1": 0.8049999999999997,
+     "sum_2": 25.60000000000001,
+     "mean": 0.4258870967741937
+    },
+    {
+     "ObjectId": 211,
+     "Country": "United Kingdom",
+     "ISO2": "GB",
+     "sum_1": 5.71,
+     "sum_2": 23.179000000000006,
+     "mean": 0.4659516129032259
+    },
+    {
+     "ObjectId": 212,
+     "Country": "United States",
+     "ISO2": "US",
+     "sum_1": 6.870000000000001,
+     "sum_2": 23.5,
+     "mean": 0.4898387096774193
+    },
+    {
+     "ObjectId": 213,
+     "Country": "United States Virgin Islands",
+     "ISO2": "VI",
+     "sum_1": 7.482000000000001,
+     "sum_2": 18.345,
+     "mean": 0.41656451612903234
+    },
+    {
+     "ObjectId": 214,
+     "Country": "Uruguay",
+     "ISO2": "UY",
+     "sum_1": 7.605000000000001,
+     "sum_2": 15.471000000000002,
+     "mean": 0.37219354838709673
+    },
+    {
+     "ObjectId": 215,
+     "Country": "Uzbekistan, Rep. of",
+     "ISO2": "UZ",
+     "sum_1": 4.5,
+     "sum_2": 33.197,
+     "mean": 1.2160322580645162
+    },
+    {
+     "ObjectId": 216,
+     "Country": "Vanuatu",
+     "ISO2": "VU",
+     "sum_1": 5.1049999999999995,
+     "sum_2": 16.905000000000005,
+     "mean": 0.3549999999999999
+    },
+    {
+     "ObjectId": 217,
+     "Country": "Venezuela, Rep. Bolivariana de",
+     "ISO2": "VE",
+     "sum_1": 6.271,
+     "sum_2": 18.837000000000003,
+     "mean": 0.40496774193548396
+    },
+    {
+     "ObjectId": 218,
+     "Country": "Vietnam",
+     "ISO2": "VN",
+     "sum_1": 6.695,
+     "sum_2": 19.245,
+     "mean": 0.4183870967741935
+    },
+    {
+     "ObjectId": 219,
+     "Country": "Wallis and Futuna Islands",
+     "ISO2": "WF",
+     "sum_1": 3.1510000000000002,
+     "sum_2": 18.526,
+     "mean": 0.3496290322580646
+    },
+    {
+     "ObjectId": 220,
+     "Country": "West Bank and Gaza",
+     "ISO2": "PS",
+     "sum_1": -2.2580000000000013,
+     "sum_2": 22.930000000000003,
+     "mean": 0.3334193548387097
+    },
+    {
+     "ObjectId": 221,
+     "Country": "Western Sahara",
+     "ISO2": "EH",
+     "sum_1": 16.637999999999998,
+     "sum_2": 33.306000000000004,
+     "mean": 0.805548387096774
+    },
+    {
+     "ObjectId": 222,
+     "Country": "World",
+     "sum_1": 8.749,
+     "sum_2": 26.638999999999992,
+     "mean": 0.5707741935483871
+    },
+    {
+     "ObjectId": 223,
+     "Country": "Yemen, Rep. of",
+     "ISO2": "YE",
+     "sum_1": 4.390000000000001,
+     "sum_2": 0,
+     "mean": 0.14161290322580647
+    },
+    {
+     "ObjectId": 224,
+     "Country": "Zambia",
+     "ISO2": "ZM",
+     "sum_1": 7.828000000000001,
+     "sum_2": 17.209,
+     "mean": 0.40382258064516136
+    },
+    {
+     "ObjectId": 225,
+     "Country": "Zimbabwe",
+     "ISO2": "ZW",
+     "sum_1": 6.415,
+     "sum_2": 6.213000000000001,
+     "mean": 0.20367741935483868
+    }
+   ]

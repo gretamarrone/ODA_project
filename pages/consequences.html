@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-    Dashboard
+    Consequences
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -35,284 +35,439 @@
   <link id="pagestyle" href="../assets/css/argon-dashboard.css?v=2.0.4" rel="stylesheet" />
 </head>
 
-<body class="g-sidenav-show  bg-gray-100 virtual-reality">
-  <div>
 
-    
+<!-- INIZIO CLASSE INDEX -->
+<body class="g-sidenav-show   bg-gray-100">
+  <div class="min-height-300 bg-primary position-absolute w-100"></div>
+  <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 " id="sidenav-main">
+    <div class="sidenav-header">
+      <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+      <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html " target="_blank">
+        <img src="../assets/img/logo-ct-dark.png" class="navbar-brand-img h-100" alt="main_logo">
+        <span class="ms-1 font-weight-bold">GAMMA Dashboard</span>
+      </a>
+    </div>
+    <hr class="horizontal dark mt-0">
+    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " href="../index.html">
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="key_statistics.html">
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">Key Statistics</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="interactive_map.html">
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">Interactive Map</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="consequences.html">
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-app text-info text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">Consequences</span>
+          </a>
+        </li>
+
+
+        <!--
+        <li class="nav-item">
+          <a class="nav-link " href="./pages/rtl.html">
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-world-2 text-danger text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">TBD</span>
+          </a>
+        </li>
+      -->
+
+        <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ABOUT</h6>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link " href="contacts.html">
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">Contacts</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link " href="sources.html">
+            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+              <i class="ni ni-single-copy-04 text-warning text-sm opacity-10"></i>
+            </div>
+            <span class="nav-link-text ms-1">Sources</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+
+  </aside>
+  <main class="main-content position-relative border-radius-lg ">
     <!-- Navbar -->
-    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl  mt-3 mx-3 bg-primary" id="navbarBlur" data-scroll="false">
+    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl " id="navbarBlur" data-scroll="false">
       <div class="container-fluid py-1 px-3">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Pages</a></li>
-            <li class="breadcrumb-item text-sm text-white active" aria-current="page">Consequencesy</li>
+            <li class="breadcrumb-item text-sm text-white active" aria-current="page">Consequences</li>
           </ol>
           <h6 class="font-weight-bolder text-white mb-0">Consequences</h6>
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+
+          
+          <!-- NAVBAR SEARCH-->
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
             <div class="input-group">
               <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
               <input type="text" class="form-control" placeholder="Type here...">
             </div>
           </div>
-          <ul class="navbar-nav  justify-content-end">
-            
-            
-
-            <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
-              <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
-                <div class="sidenav-toggler-inner">
-                  <i class="sidenav-toggler-line bg-white"></i>
-                  <i class="sidenav-toggler-line bg-white"></i>
-                  <i class="sidenav-toggler-line bg-white"></i>
-                </div>
-              </a>
-            </li>
-
-          </ul>
         </div>
       </div>
     </nav>
     <!-- End Navbar -->
 
 
-  </div>
-  <div class="border-radius-xl mt-4 mx-4 position-relative" style="background-image: url('../assets/img/vr-bg.jpg') ; background-size: cover;">
-    <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 " id="sidenav-main">
-      <div class="sidenav-header">
-        <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-        <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html " target="_blank">
-          <img src="../assets/img/logo-ct-dark.png" class="navbar-brand-img h-100" alt="main_logo">
-          <span class="ms-1 font-weight-bold">GAMMA Dashboard</span>
-        </a>
-      </div>
-      <hr class="horizontal dark mt-0">
-      <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " href="../index.html">
-              <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
-              </div>
-              <span class="nav-link-text ms-1">Dashboard</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="key_statistics.html">
-              <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="ni ni-calendar-grid-58 text-warning text-sm opacity-10"></i>
-              </div>
-              <span class="nav-link-text ms-1">Key Statistics</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="interactive_map.html">
-              <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
-              </div>
-              <span class="nav-link-text ms-1">Interactive Map</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="consequences.html">
-              <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="ni ni-app text-info text-sm opacity-10"></i>
-              </div>
-              <span class="nav-link-text ms-1">Consequences</span>
-            </a>
-          </li>
-          
-          <!--
-          <li class="nav-item">
-            <a class="nav-link " href="rtl.html">
-              <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="ni ni-world-2 text-danger text-sm opacity-10"></i>
-              </div>
-              <span class="nav-link-text ms-1">TBD</span>
-            </a>
-          </li>
-
-          -->
 
 
-          <li class="nav-item mt-3">
-            <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ABOUT</h6>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="contacts.html">
-              <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
-              </div>
-              <span class="nav-link-text ms-1">Contacts</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="sources.html">
-              <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                <i class="ni ni-single-copy-04 text-warning text-sm opacity-10"></i>
-              </div>
-              <span class="nav-link-text ms-1">Sources</span>
-            </a>
-          </li>
-         
-          
-          
-        </ul>
-      </div>
-      
-      
 
-    </aside>
-    <main class="main-content mt-1 border-radius-lg">
-      <div class="section min-vh-85 position-relative transform-scale-0 transform-scale-md-7">
-        <div class="container">
-          <div class="row pt-10">
-            <div class="col-lg-1 col-md-1 pt-5 pt-lg-0 ms-lg-5 text-center">
-              <a href="javascript:;" class="avatar avatar-md border-0 d-block mb-2" data-bs-toggle="tooltip" data-bs-placement="left" title="My Profile">
-                <img class="border-radius-lg" alt="Image placeholder" src="../assets/img/team-1.jpg">
-              </a>
-              <button class="btn btn-white border-radius-lg p-2 mt-0 mt-md-2 d-block mx-2 mx-md-0" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Home">
-                <i class="fas fa-home p-2"></i>
-              </button>
-              <button class="btn btn-white border-radius-lg p-2 d-block" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Search">
-                <i class="fas fa-search p-2"></i>
-              </button>
-              <button class="btn btn-white border-radius-lg p-2 d-block ms-2 ms-md-0" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Minimize">
-                <i class="fas fa-ellipsis-h p-2"></i>
-              </button>
+<!-- CONTAINER TOT -->
+    <div class="container-fluid py-4">
+
+
+
+      <!-- CONTAINER 1 -->
+      <div class="row">
+
+        <!-- container 2 div -->
+        <div class="row mt-4">
+
+         <!-- TESTO-->
+          <div class="col-lg-7 mb-lg-0 mb-4">
+            <div class="card z-index-2 h-100">
+              <div class="card-header pb-3 pt-3 bg-transparent">
+
+                <h5 class="text-capitalize">The Melting of Ice and Climate Change: A Global Alarm</h6>
+                <p class="text-sm mb-3 text-justify">
+                  The slow but relentless <span class="font-weight-bold">melting of polar ice</span> is an eloquent signal of the climate change shaping our planet. This phenomenon, largely attributable to the rise in global temperatures, has significant implications for ecological balance and life on Earth.
+                </p>                
+                <p class="text-sm mb-3 text-justify">
+                  The ice, which for millennia has formed imposing masses in the Arctic and Antarctic regions, is undergoing a rapid decline. This process is primarily fueled by the <span class="font-weight-bold">increase in greenhouse gas emissions in the atmosphere</span>, stemming from human activities such as industry and deforestation. In response to these growing environmental pressures, the ice is melting at a concerning rate, with direct consequences for the stability of our climate.
+                </p>
+                <p class="text-sm mb-3 text-justify">
+                  The melting of ice contributes to the <span class="font-weight-bold">rise in sea levels</span>, threatening coastal communities and marine biodiversity. The unique and fragile habitats of polar animals, such as polar bears and seals, are at risk as their icy homes slowly disappear. This process not only endangers wildlife but also has a direct impact on the regulation of global climate.
+                </p>
+                <p class="text-sm mb-3 text-justify">
+                  Addressing the problem requires <span class="font-weight-bold">coordinated global efforts</span>. Reducing greenhouse gas emissions, promoting sustainable energy sources, and adopting more sustainable agricultural practices are just a few of the actions necessary to mitigate the impact of climate change on ice melting. Additionally, awareness and education on environmental issues are crucial to engage society in the fight against climate change.
+                </p>
+
+              </div>
             </div>
-            <div class="col-lg-8 col-md-11">
-              <div class="d-flex">
-                <div class="me-auto">
-                  <h1 class="display-1 font-weight-bold mb-0">12°C</h1>
-                  <h6 class="text-uppercase mb-0 ms-1">Cloudy</h6>
-                </div>
-                <div class="ms-auto">
-                  <img class="w-50 float-end mt-md-n5" src="../assets/img/small-logos/icon-sun-cloud.png" alt="image sun">
-                </div>
-              </div>
-              <div class="row mt-4">
-                <div class="col-lg-4 col-md-4">
-                  <div class="card move-on-hover overflow-hidden">
-                    <div class="card-body">
-                      <div class="d-flex">
-                        <h6 class="mb-0 me-3">08:00</h6>
-                        <h6 class="mb-0">Synk up with Mark
-                          <small class="text-secondary font-weight-normal">Hangouts</small>
-                        </h6>
-                      </div>
-                      <hr class="horizontal dark">
-                      <div class="d-flex">
-                        <h6 class="mb-0 me-3">09:30</h6>
-                        <h6 class="mb-0">Gym <br />
-                          <small class="text-secondary font-weight-normal">World Class</small>
-                        </h6>
-                      </div>
-                      <hr class="horizontal dark">
-                      <div class="d-flex">
-                        <h6 class="mb-0 me-3">11:00</h6>
-                        <h6 class="mb-0">Design Review<br />
-                          <small class="text-secondary font-weight-normal">Zoom</small>
-                        </h6>
-                      </div>
+          </div>
+
+
+
+          <!-- IMMAGINI A SCORRIMENTO -->
+          <div class="col-lg-5">
+            <div class="card card-carousel overflow-hidden h-100 p-0">
+              <div id="carousel1" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner border-radius-lg h-100">
+                  
+                  
+                  <div class="carousel-item h-100 active" style="background-image: url('./images/8x7sdhml1u_Glacier_in_Antarctica_Wim_van_Passel_WW1111292.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Glacier in Antarctica</h5>
+                      <p>© Wim van Passel / WWF</p>
                     </div>
-                    <a href="javascript:;" class="bg-gray-100 w-100 text-center py-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Show More">
-                      <i class="fas fa-chevron-down text-primary"></i>
-                    </a>
                   </div>
-                </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-sm-0">
-                  <div class="card bg-gradient-dark move-on-hover">
-                    <div class="card-body">
-                      <div class="d-flex">
-                        <h5 class="mb-0 text-white">To Do</h5>
-                        <div class="ms-auto">
-                          <h1 class="text-white text-end mb-0 mt-n2">7</h1>
-                          <p class="text-sm mb-0 text-white">items</p>
-                        </div>
-                      </div>
-                      <p class="text-white mb-0">Shopping</p>
-                      <p class="mb-0 text-white">Meeting</p>
+
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/43cgat4glc_Winter_sea_ice_Shutterstock_554810506.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Sea ice in Finland</h5>
+                      <p>© Shutterstock</p>
                     </div>
-                    <a href="javascript:;" class="w-100 text-center py-1" data-bs-toggle="tooltip" data-bs-placement="top" title="Show More">
-                      <i class="fas fa-chevron-down text-white"></i>
-                    </a>
                   </div>
-                  <div class="card move-on-hover mt-4">
-                    <div class="card-body">
-                      <div class="d-flex">
-                        <p class="mb-0">Emails (21)</p>
-                        <a href="javascript:;" class="ms-auto" data-bs-toggle="tooltip" data-bs-placement="top" title="Check your emails">
-                          Check
-                        </a>
-                      </div>
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/htycky3uc_Emporer_Penguins_Antarctica_Tiffany_Boyd_WW267496.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Antarctic Wildlife</h5>
+                      <p>© Tiffany Boyd</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-4 col-md-4 mt-4 mt-sm-0">
-                  <div class="card card-background card-background-mask-primary move-on-hover align-items-start">
-                    <div class="cursor-pointer">
-                      <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1518609878373-06d740f60d8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2370&q=80')"></div>
-                      <div class="card-body">
-                        <h5 class="text-white mb-0">Some Kind Of Blues</h5>
-                        <p class="text-white text-sm">Deftones</p>
-                        <div class="d-flex mt-5">
-                          <button class="btn btn-outline-white rounded-circle p-2 mb-0" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Prev">
-                            <i class="fas fa-backward p-2"></i>
-                          </button>
-                          <button class="btn btn-outline-white rounded-circle p-2 mx-2 mb-0" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Pause">
-                            <i class="fas fa-play p-2"></i>
-                          </button>
-                          <button class="btn btn-outline-white rounded-circle p-2 mb-0" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="Next">
-                            <i class="fas fa-forward p-2"></i>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card move-on-hover mt-4 mb-4 mb-md-0 mt-md-4">
-                    <div class="card-body">
-                      <div class="d-flex">
-                        <p class="my-auto">Messages</p>
-                        <div class="ms-auto">
-                          <div class="avatar-group">
-                            <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="2 New Messages">
-                              <img alt="Image placeholder" src="../assets/img/team-1.jpg">
-                            </a>
-                            <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="1 New Message">
-                              <img alt="Image placeholder" src="../assets/img/team-2.jpg">
-                            </a>
-                            <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="13 New Messages">
-                              <img alt="Image placeholder" src="../assets/img/team-3.jpg">
-                            </a>
-                            <a href="javascript:;" class="avatar avatar-sm border-0 rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="7 New Messages">
-                              <img alt="Image placeholder" src="../assets/img/team-4.jpg">
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
+
+                <!-- button-->
+                <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+
+
               </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
-  </div>
+
+
+
+      <!-- CONTAINER 2 -->
+      <div class="row">
+
+        <!--container 2 div-->
+        <div class="row mt-4">
+
+          <!-- IMMAGINI A SCORRIMENTO -->
+          <div class="col-lg-5">
+            <div class="card card-carousel overflow-hidden h-100 p-0">
+              <div id="carousel2" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner border-radius-lg h-100">
+
+                  
+                  <div class="carousel-item h-100 active" style="background-image: url('./images/small_ww2134732__luis_barreto__wwf_uk_716916.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Amazon forest</h5>
+                      <p>© Luis Barreto / WWF-UK</p>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/edited_food_pic_1_718080.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Farmland in UK</h5>
+                      <p>© Sam Hobson / WWF-UK</p>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/_WW2125138_600.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Planta Fotovoltaica Santa Fe in San Lorenzo (ARG) </h5>
+                      <p>© Jason Houston / WWF-US</p>
+                    </div>
+                  </div>
+                </div>
+
+
+               
+                <!-- Bottoni di controllo del Carosello 1 -->
+                <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+              </div>
+            </div>
+          </div>
+      
+
+
+
+        <!-- TESTO-->
+        <div class="col-lg-7 mb-lg-0 mb-4">
+          <div class="card z-index-2 h-100">
+            <div class="card-header pb-3 pt-3 bg-transparent">
+
+              <h5 class="text-capitalize">Temperature Soaring: The Impact on Our Planet</h6>
+                <p class="text-sm mb-3 text-justify">
+                  As the specter of climate change looms large, one of its most palpable manifestations is the <span class="font-weight-bold">relentless rise in temperatures worldwide</span>. The Earth is experiencing a warming trend, with record-breaking high temperatures becoming increasingly common. This escalation in temperature levels carries far-reaching consequences for both the environment and society.                
+                </p>                
+                <p class="text-sm mb-3 text-justify">
+                  The rise in temperatures is intricately linked to the surge in greenhouse gas emissions, a byproduct of human activities like <span class="font-weight-bold">burning fossil fuels and deforestation</span>. As these gases accumulate in the atmosphere, they create a sort of heat-trapping blanket around the planet, leading to a gradual but perceptible increase in temperature. 
+                </p>
+                <p class="text-sm mb-3 text-justify">
+                  Furthermore, higher temperatures <span class="font-weight-bold">impact agriculture</span>, affecting crop yields and food security. Regions that were once suitable for certain crops may no longer be viable, leading to changes in global food production patterns. This, in turn, poses challenges for communities that depend on agriculture for their livelihoods.                
+                </p>
+                <p class="text-sm mb-3 text-justify">
+                  Transitioning to sustainable energy sources, implementing measures to reduce emissions, and adopting climate-resilient practices are essential steps in<span class="font-weight-bold"> mitigating the impact </span>of elevated temperatures on our planet. Moreover, raising awareness about the consequences of climate change is crucial to garner support for meaningful and urgent action.                
+                </p>
+              </h5>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- CONTAINER 3 -->
+      <div class="row">
+
+        <!-- container 2 div -->
+        <div class="row mt-4">
+
+         <!-- TESTO-->
+          <div class="col-lg-7 mb-lg-0 mb-4">
+            <div class="card z-index-2 h-100">
+              <div class="card-header pb-3 pt-3 bg-transparent">
+                
+                <h5 class="text-capitalize">Endangered Wildlife: Consequences on Animal Species</h6>
+                <p class="text-sm mb-3 text-justify">
+                  Climate change poses a growing  <span class="font-weight-bold">threat to the rich diversity</span> of life on our planet. Animal species, adapted to specific ecological balances, are facing unprecedented challenges due to alterations in their habitats and climate patterns.                
+                </p>                
+                <p class="text-sm mb-3 text-justify">
+                  A direct impact of global warming is the <span class="font-weight-bold">modification of migration and reproduction patterns</span> of species. Many animals, from wandering albatrosses to polar bears, are experiencing changes in their traditional behaviors as they try to adapt to warmer temperatures and changing environmental conditions. These changes can lead to disruptions in delicate ecological balances, with potential ripple effects on other species and ecosystems. Also, the gradual melting of ice caps and polar ice directly affects animals that depend on these unique habitats.                
+                </p>
+                <p class="text-sm mb-3 text-justify">
+                  Moreover, <span class="font-weight-bold">extreme weather events</span>, such as prolonged heatwaves and changes in precipitation patterns, can have devastating impacts on wildlife. Many animals, especially those adapted to specific climates, may suddenly find themselves in environments where food resources are scarce or conditions are too extreme for their survival.                
+                </p>
+                <p class="text-sm mb-3 text-justify">
+                  Climate change also threatens <span class="font-weight-bold">marine biodiversity</span>, with oceans warming and becoming more acidic due to carbon dioxide absorption. This endangers coral reefs, marine creatures, and coastal ecosystems, with impacts on many fish species that sustain human communities and marine balances.
+                </p>
+              
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- IMMAGINI A SCORRIMENTO -->
+          <div class="col-lg-5">
+            <div class="card card-carousel overflow-hidden h-100 p-0">
+              <div id="carousel3" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner border-radius-lg h-100">
+                  
+                  
+                  <div class="carousel-item h-100 active" style="background-image: url('./images/dlhoj1x15_WWF_Malaysia_Eric_Madeja___3__Giant_clam.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Giant clam from Tun Mustapha, Coral Triangle</h5>
+                      <p>© Eric Madeja /WWF-Malaysia</p>
+                    </div>
+                  </div>
+
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/Medium_WW254225.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">African Elephants</h5>
+                      <p>© Denis-Huot / WWF</p>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/East_Africa_Turtles_WW241409.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">East African Turtles</h5>
+                      <p>© Jonathan Caramanus / Green Renaissance / WWF-UK</p>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/Bengal\ tiger\,\ India\ ©\ Richard\ Barrett\ \ WWF-UK.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Bengal Tiger</h5>
+                      <p>© Richard Barrett / WWF-UK</p>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item h-100" style="background-image: url('./images/Yangtze_Giant_Panda_WW1504.jpg'); background-size: cover;">
+                    <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+                      <h5 class="text-white mb-1">Yangtze Giant Panda</h5>
+                      <p>© Yong Yange / WWF China</p>
+                    </div>
+                  </div>
+
+
+
+                </div>
+
+
+                <!-- button-->
+                <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+
 
   
-  <footer class="footer pt-3  ">
-    <div class="container-fluid">
-      <div class="row align-items-center justify-content-lg-between">
-      </div>
-    </div>
-  </footer>
-
-
-
   <!--   Core JS Files   -->
   <script src="../assets/js/core/popper.min.js"></script>
   <script src="../assets/js/core/bootstrap.min.js"></script>
