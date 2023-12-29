@@ -4,63 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mappa del Mondo</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-geoman-free@2.11.0/dist/leaflet-geoman.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-geoman-free@2.11.0/dist/leaflet-geoman.min.js"></script>
 </head>
 <body>
+    <div id="map" style="height: 500px;"></div>
 
-<object type="image/svg+xml" data="world.svg" width="600" height="400">
-    Il tuo browser  supporta SVG
-</object>
+    <script>
+        // Inizializza la mappa
+        var map = L.map('map').setView([0, 0], 2);
 
-<script>
-    // Esempio di manipolazione dell'SVG con JavaScript
-    document.addEventListener('DOMContentLoaded', function () {
-        var objectElement = document.querySelector('object');
-        var svgDoc = objectElement.contentDocument;
-    });
+        // Aggiungi una mappa di sfondo (puoi cambiare il provider a tuo piacimento)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
 
+        // Abilita il plugin Leaflet-Geoman per disegnare i contorni
+        map.pm.addControls();
 
+        // Aggiungi i contorni dei continenti
+        
 
-
-    //variabili per accedere 
-    // Accesso alla sezione main_settings
-    var mainSettings = simplemaps_worlmap_mapdata.main_settings;
-
-    // Accesso alla sezione state_specific
-    var stateSpecific = simplemaps_worlmap_mapdata.state_specific;
-
-    // Accesso alla sezione regions
-    var regions = simplemaps_worlmap_mapdata.regions;
-
-
-
-    // EVENTO
-
-    // Recupera tutti gli elementi delle regioni
-    var regionElements = svgDoc.querySelectorAll('.region');
-
-    // Aggiungi eventi al passaggio del mouse e al clic
-    regionElements.forEach(function (regionElement, index) {
-        regionElement.addEventListener('mouseover', function () {
-            // Aggiungi classe per l'illuminazione al passaggio del mouse
-            regionElement.classList.add('highlighted');
-        });
-
-    regionElement.addEventListener('mouseout', function () {
-        // Rimuovi classe al termine del passaggio del mouse
-        regionElement.classList.remove('highlighted');
-    });
-
-    regionElement.addEventListener('click', function () {
-        // Quando viene cliccato, reindirizza verso la nuova pagina
-        var continentName = simplemaps_worlmap_mapdata.regions[index].name;
-        window.location.href = 'nuova_pagina.html?continent=' + continentName;
-    });
-});
-
-
-
-
-</script>
-
+        L.polygon(continents, { color: 'red' }).addTo(map);
+    </script>
 </body>
 </html>
