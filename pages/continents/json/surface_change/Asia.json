@@ -7,14 +7,6 @@
   "sum from 2000 to 2022": 25.473,
   "mean": 0.48466129032258065
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 10,
   "Country": "Armenia, Rep. of",
@@ -23,9 +15,6 @@
   "sum from 2000 to 2022": 31.214000000000002,
   "mean": 1.0975161290322584
  },
- null,
- null,
- null,
  {
   "ObjectId": 14,
   "Country": "Azerbaijan, Rep. of",
@@ -34,7 +23,6 @@
   "sum from 2000 to 2022": 32.306,
   "mean": 1.1226451612903225
  },
- null,
  {
   "ObjectId": 16,
   "Country": "Bahrain, Kingdom of",
@@ -51,11 +39,6 @@
   "sum from 2000 to 2022": 14.53,
   "mean": 0.23262903225806453
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 23,
   "Country": "Bhutan",
@@ -64,11 +47,6 @@
   "sum from 2000 to 2022": 21.884,
   "mean": 0.3876935483870968
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 29,
   "Country": "Brunei Darussalam",
@@ -77,10 +55,6 @@
   "sum from 2000 to 2022": 23.986,
   "mean": 0.5069193548387096
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 34,
   "Country": "Cambodia",
@@ -89,12 +63,6 @@
   "sum from 2000 to 2022": 19.435000000000002,
   "mean": 0.47199999999999986
  },
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 41,
   "Country": "China, P.R.: Hong Kong",
@@ -119,36 +87,6 @@
   "sum from 2000 to 2022": 27.639,
   "mean": 0.5860967741935484
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 74,
   "Country": "Georgia",
@@ -157,22 +95,6 @@
   "sum from 2000 to 2022": 28.336000000000002,
   "mean": 0.9715483870967744
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 91,
   "Country": "India",
@@ -205,8 +127,6 @@
   "sum from 2000 to 2022": 33.831,
   "mean": 0.6306290322580644
  },
- null,
- null,
  {
   "ObjectId": 97,
   "Country": "Israel",
@@ -215,8 +135,6 @@
   "sum from 2000 to 2022": 22.927000000000003,
   "mean": 0.3335161290322581
  },
- null,
- null,
  {
   "ObjectId": 100,
   "Country": "Japan",
@@ -241,8 +159,6 @@
   "sum from 2000 to 2022": 35.887000000000015,
   "mean": 1.3268064516129037
  },
- null,
- null,
  {
   "ObjectId": 105,
   "Country": "Korea, Dem. People's Rep. of",
@@ -283,16 +199,6 @@
   "sum from 2000 to 2022": 22.892000000000003,
   "mean": 0.5217258064516128
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 120,
   "Country": "Malaysia",
@@ -309,17 +215,6 @@
   "sum from 2000 to 2022": 16.346999999999998,
   "mean": 0.4308928571428572
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 133,
   "Country": "Mongolia",
@@ -328,13 +223,6 @@
   "sum from 2000 to 2022": 35.53800000000001,
   "mean": 0.8955967741935484
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 141,
   "Country": "Nepal",
@@ -343,16 +231,6 @@
   "sum from 2000 to 2022": 14.07,
   "mean": 0.23201612903225807
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 152,
   "Country": "Oman",
@@ -369,11 +247,6 @@
   "sum from 2000 to 2022": 18.629,
   "mean": 0.2906935483870968
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 159,
   "Country": "Philippines",
@@ -382,10 +255,6 @@
   "sum from 2000 to 2022": 23.297,
   "mean": 0.5195645161290323
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 164,
   "Country": "Qatar",
@@ -394,14 +263,6 @@
   "sum from 2000 to 2022": 34.067,
   "mean": 0.6366935483870968
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 173,
   "Country": "Saudi Arabia",
@@ -410,10 +271,6 @@
   "sum from 2000 to 2022": 30.063000000000006,
   "mean": 0.5277096774193549
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 178,
   "Country": "Singapore",
@@ -422,13 +279,6 @@
   "sum from 2000 to 2022": 18.488,
   "mean": 0.5823250000000001
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 186,
   "Country": "Sri Lanka",
@@ -437,13 +287,6 @@
   "sum from 2000 to 2022": 19.963000000000005,
   "mean": 0.4521612903225806
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 194,
   "Country": "Syrian Arab Rep.",
@@ -468,7 +311,6 @@
   "sum from 2000 to 2022": 26.341,
   "mean": 0.9484838709677417
  },
- null,
  {
   "ObjectId": 198,
   "Country": "Thailand",
@@ -485,11 +327,6 @@
   "sum from 2000 to 2022": 17.211000000000002,
   "mean": 0.42360784313725497
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 205,
   "Country": "Turkmenistan",
@@ -498,10 +335,6 @@
   "sum from 2000 to 2022": 32.58,
   "mean": 1.216064516129032
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 210,
   "Country": "United Arab Emirates",
@@ -510,10 +343,6 @@
   "sum from 2000 to 2022": 25.60000000000001,
   "mean": 0.4258870967741937
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 215,
   "Country": "Uzbekistan, Rep. of",
@@ -522,8 +351,6 @@
   "sum from 2000 to 2022": 33.197,
   "mean": 1.2160322580645162
  },
- null,
- null,
  {
   "ObjectId": 218,
   "Country": "Vietnam",
@@ -532,10 +359,6 @@
   "sum from 2000 to 2022": 19.245,
   "mean": 0.4183870967741935
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 223,
   "Country": "Yemen, Rep. of",

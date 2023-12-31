@@ -1,5 +1,4 @@
 [
- null,
  {
   "ObjectId": 2,
   "Country": "Albania",
@@ -8,8 +7,6 @@
   "sum from 2000 to 2022": 26.914,
   "mean": 0.47138709677419355
  },
- null,
- null,
  {
   "ObjectId": 5,
   "Country": "Andorra, Principality of",
@@ -18,13 +15,6 @@
   "sum from 2000 to 2022": 34.98500000000001,
   "mean": 0.7928064516129032
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 13,
   "Country": "Austria",
@@ -33,11 +23,6 @@
   "sum from 2000 to 2022": 38.317,
   "mean": 0.8093709677419355
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 19,
   "Country": "Belarus, Rep. of",
@@ -54,10 +39,6 @@
   "sum from 2000 to 2022": 35.106,
   "mean": 1.5263478260869565
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 25,
   "Country": "Bosnia and Herzegovina",
@@ -66,10 +47,6 @@
   "sum from 2000 to 2022": 32.90099999999999,
   "mean": 1.210483870967742
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 30,
   "Country": "Bulgaria",
@@ -78,25 +55,6 @@
   "sum from 2000 to 2022": 29.762,
   "mean": 0.5286290322580646
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 50,
   "Country": "Croatia, Rep. of",
@@ -105,7 +63,6 @@
   "sum from 2000 to 2022": 34.477000000000004,
   "mean": 1.2839677419354838
  },
- null,
  {
   "ObjectId": 52,
   "Country": "Cyprus",
@@ -130,14 +87,6 @@
   "sum from 2000 to 2022": 34.602999999999994,
   "mean": 0.7248548387096774
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 63,
   "Country": "Estonia, Rep. of",
@@ -146,9 +95,6 @@
   "sum from 2000 to 2022": 41.31399999999999,
   "mean": 1.5555806451612904
  },
- null,
- null,
- null,
  {
   "ObjectId": 67,
   "Country": "Faroe Islands",
@@ -157,7 +103,6 @@
   "sum from 2000 to 2022": 21.307999999999996,
   "mean": 0.4125483870967741
  },
- null,
  {
   "ObjectId": 69,
   "Country": "Finland",
@@ -174,10 +119,6 @@
   "sum from 2000 to 2022": 34.339999999999996,
   "mean": 0.7477580645161291
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 75,
   "Country": "Germany",
@@ -186,7 +127,6 @@
   "sum from 2000 to 2022": 36.239000000000004,
   "mean": 0.767483870967742
  },
- null,
  {
   "ObjectId": 77,
   "Country": "Gibraltar",
@@ -211,13 +151,6 @@
   "sum from 2000 to 2022": 34.721,
   "mean": 0.44569354838709674
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 87,
   "Country": "Holy See",
@@ -226,7 +159,6 @@
   "sum from 2000 to 2022": 28.471000000000004,
   "mean": 0.5800161290322581
  },
- null,
  {
   "ObjectId": 89,
   "Country": "Hungary",
@@ -243,10 +175,6 @@
   "sum from 2000 to 2022": 22.613,
   "mean": 0.3544838709677419
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 95,
   "Country": "Ireland",
@@ -263,7 +191,6 @@
   "sum from 2000 to 2022": 21.626000000000005,
   "mean": 0.43975806451612903
  },
- null,
  {
   "ObjectId": 98,
   "Country": "Italy",
@@ -272,17 +199,6 @@
   "sum from 2000 to 2022": 31.642000000000003,
   "mean": 0.6495161290322582
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 110,
   "Country": "Latvia",
@@ -291,10 +207,6 @@
   "sum from 2000 to 2022": 40.03900000000001,
   "mean": 1.51341935483871
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 115,
   "Country": "Liechtenstein",
@@ -319,11 +231,6 @@
   "sum from 2000 to 2022": 36.44,
   "mean": 1.5843478260869563
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 123,
   "Country": "Malta",
@@ -332,14 +239,6 @@
   "sum from 2000 to 2022": 30.554000000000002,
   "mean": 0.6353709677419355
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 132,
   "Country": "Monaco",
@@ -348,7 +247,6 @@
   "sum from 2000 to 2022": 33.827000000000005,
   "mean": 0.7118548387096775
  },
- null,
  {
   "ObjectId": 134,
   "Country": "Montenegro",
@@ -357,13 +255,6 @@
   "sum from 2000 to 2022": 25.118,
   "mean": 1.4775294117647058
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 142,
   "Country": "Netherlands, The",
@@ -372,13 +263,6 @@
   "sum from 2000 to 2022": 35.187000000000005,
   "mean": 0.7411774193548387
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 150,
   "Country": "North Macedonia, Republic of ",
@@ -395,15 +279,6 @@
   "sum from 2000 to 2022": 32.663999999999994,
   "mean": 0.6545
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 161,
   "Country": "Poland, Rep. of",
@@ -420,8 +295,6 @@
   "sum from 2000 to 2022": 29.247,
   "mean": 0.6683387096774192
  },
- null,
- null,
  {
   "ObjectId": 165,
   "Country": "Romania",
@@ -438,10 +311,6 @@
   "sum from 2000 to 2022": 40.352000000000004,
   "mean": 1.5096129032258068
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 171,
   "Country": "San Marino, Rep. of",
@@ -450,9 +319,6 @@
   "sum from 2000 to 2022": 33.375,
   "mean": 0.665193548387097
  },
- null,
- null,
- null,
  {
   "ObjectId": 175,
   "Country": "Serbia, Rep. of",
@@ -461,9 +327,6 @@
   "sum from 2000 to 2022": 26.213,
   "mean": 1.5419411764705884
  },
- null,
- null,
- null,
  {
   "ObjectId": 179,
   "Country": "Slovak Rep.",
@@ -480,10 +343,6 @@
   "sum from 2000 to 2022": 38.391,
   "mean": 1.4625161290322581
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 185,
   "Country": "Spain",
@@ -492,12 +351,6 @@
   "sum from 2000 to 2022": 31.159000000000006,
   "mean": 0.7096774193548387
  },
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 192,
   "Country": "Sweden",
@@ -514,21 +367,6 @@
   "sum from 2000 to 2022": 36.408,
   "mean": 0.7860645161290324
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 209,
   "Country": "Ukraine",
@@ -537,7 +375,6 @@
   "sum from 2000 to 2022": 36.418,
   "mean": 1.273258064516129
  },
- null,
  {
   "ObjectId": 211,
   "Country": "United Kingdom",

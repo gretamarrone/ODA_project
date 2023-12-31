@@ -1,6 +1,4 @@
 [
- null,
- null,
  {
   "ObjectId": 3,
   "Country": "Algeria",
@@ -9,8 +7,6 @@
   "sum from 2000 to 2022": 32.867000000000004,
   "mean": 0.7248709677419355
  },
- null,
- null,
  {
   "ObjectId": 6,
   "Country": "Angola",
@@ -19,21 +15,6 @@
   "sum from 2000 to 2022": 21.56,
   "mean": 0.4815
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 22,
   "Country": "Benin",
@@ -42,9 +23,6 @@
   "sum from 2000 to 2022": 21.359999999999996,
   "mean": 0.5055967741935484
  },
- null,
- null,
- null,
  {
   "ObjectId": 26,
   "Country": "Botswana",
@@ -53,10 +31,6 @@
   "sum from 2000 to 2022": 6.753,
   "mean": 0.2201290322580645
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 31,
   "Country": "Burkina Faso",
@@ -73,8 +47,6 @@
   "sum from 2000 to 2022": 4.742,
   "mean": 0.26134482758620686
  },
- null,
- null,
  {
   "ObjectId": 35,
   "Country": "Cameroon",
@@ -83,8 +55,6 @@
   "sum from 2000 to 2022": 20.866,
   "mean": 0.4367903225806451
  },
- null,
- null,
  {
   "ObjectId": 38,
   "Country": "Central African Rep.",
@@ -101,11 +71,6 @@
   "sum from 2000 to 2022": 21.601000000000003,
   "mean": 0.45758064516129043
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 45,
   "Country": "Comoros, Union of the",
@@ -130,13 +95,6 @@
   "sum from 2000 to 2022": 21.962,
   "mean": 0.4083770491803279
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 55,
   "Country": "Djibouti",
@@ -145,9 +103,6 @@
   "sum from 2000 to 2022": 26.197000000000003,
   "mean": 0.5504426229508197
  },
- null,
- null,
- null,
  {
   "ObjectId": 59,
   "Country": "Egypt, Arab Rep. of",
@@ -156,7 +111,6 @@
   "sum from 2000 to 2022": 22.618,
   "mean": 0.3579838709677419
  },
- null,
  {
   "ObjectId": 61,
   "Country": "Equatorial Guinea, Rep. of",
@@ -173,7 +127,6 @@
   "sum from 2000 to 2022": 23.570999999999998,
   "mean": 0.9693076923076922
  },
- null,
  {
   "ObjectId": 64,
   "Country": "Eswatini, Kingdom of",
@@ -190,12 +143,6 @@
   "sum from 2000 to 2022": 26.456999999999994,
   "mean": 1.0058333333333331
  },
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 72,
   "Country": "Gabon",
@@ -212,8 +159,6 @@
   "sum from 2000 to 2022": 29.002,
   "mean": 0.7731774193548386
  },
- null,
- null,
  {
   "ObjectId": 76,
   "Country": "Ghana",
@@ -222,12 +167,6 @@
   "sum from 2000 to 2022": 22.35,
   "mean": 0.5361451612903226
  },
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 83,
   "Country": "Guinea",
@@ -244,24 +183,6 @@
   "sum from 2000 to 2022": 28.564,
   "mean": 0.7192258064516127
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 103,
   "Country": "Kenya",
@@ -270,14 +191,6 @@
   "sum from 2000 to 2022": 23.255000000000003,
   "mean": 0.46080645161290334
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 112,
   "Country": "Lesotho, Kingdom of",
@@ -302,9 +215,6 @@
   "sum from 2000 to 2022": 23.504,
   "mean": 0.4556774193548386
  },
- null,
- null,
- null,
  {
   "ObjectId": 118,
   "Country": "Madagascar, Rep. of",
@@ -321,8 +231,6 @@
   "sum from 2000 to 2022": 21.815,
   "mean": 0.4773064516129033
  },
- null,
- null,
  {
   "ObjectId": 122,
   "Country": "Mali",
@@ -331,9 +239,6 @@
   "sum from 2000 to 2022": 24.047,
   "mean": 0.6118709677419354
  },
- null,
- null,
- null,
  {
   "ObjectId": 126,
   "Country": "Mauritania, Islamic Rep. of",
@@ -350,14 +255,6 @@
   "sum from 2000 to 2022": 17.469999999999995,
   "mean": 0.3839354838709677
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 136,
   "Country": "Morocco",
@@ -383,12 +280,6 @@
   "sum from 2000 to 2022": 15.333,
   "mean": 0.4228225806451612
  },
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 146,
   "Country": "Niger",
@@ -405,25 +296,6 @@
   "sum from 2000 to 2022": 22.150999999999996,
   "mean": 0.5271612903225806
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 167,
   "Country": "Rwanda",
@@ -432,10 +304,6 @@
   "sum from 2000 to 2022": 3.785,
   "mean": 0.23627586206896553
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 172,
   "Country": "São Tomé and Príncipe, Dem. Rep. of",
@@ -444,7 +312,6 @@
   "sum from 2000 to 2022": 22.028000000000002,
   "mean": 0.4808275862068966
  },
- null,
  {
   "ObjectId": 174,
   "Country": "Senegal",
@@ -470,10 +337,6 @@
   "sum from 2000 to 2022": 25.297,
   "mean": 0.5901967213114756
  },
- null,
- null,
- null,
- null,
  {
   "ObjectId": 182,
   "Country": "Somalia",
@@ -498,11 +361,6 @@
   "sum from 2000 to 2022": 13.77,
   "mean": 1.1475
  },
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 190,
   "Country": "Sudan",
@@ -511,12 +369,6 @@
   "sum from 2000 to 2022": 12.475999999999999,
   "mean": 1.0396666666666665
  },
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 197,
   "Country": "Tanzania, United Rep. of",
@@ -525,8 +377,6 @@
   "sum from 2000 to 2022": 21.018000000000004,
   "mean": 0.433741935483871
  },
- null,
- null,
  {
   "ObjectId": 200,
   "Country": "Togo",
@@ -535,9 +385,6 @@
   "sum from 2000 to 2022": 21.792,
   "mean": 0.513
  },
- null,
- null,
- null,
  {
   "ObjectId": 204,
   "Country": "Tunisia",
@@ -546,9 +393,6 @@
   "sum from 2000 to 2022": 34.733000000000004,
   "mean": 0.759048387096774
  },
- null,
- null,
- null,
  {
   "ObjectId": 208,
   "Country": "Uganda",
@@ -557,21 +401,6 @@
   "sum from 2000 to 2022": 24.305,
   "mean": 0.4961612903225806
  },
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
- null,
  {
   "ObjectId": 224,
   "Country": "Zambia",
