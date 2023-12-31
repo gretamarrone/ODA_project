@@ -37,11 +37,11 @@
 
   <!-- LINK PER MAPPA-->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet-geoman-free@2.11.0/dist/leaflet-geoman.css" />
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet-geoman-free@2.11.0/dist/leaflet-geoman.min.js"></script>
-
-  <script src="https://unpkg.com/leaflet-geojson-selector@2.2.1/dist/leaflet-geojson-selector.js"></script>
+  <script src="https://opengeo.tech/maps/leaflet-geojson-selector/dist/leaflet-geojson-selector.src.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  
 
 
   
@@ -185,54 +185,91 @@
             <div class="card z-index-2 h-100">
               <div class="card-header pb-3 pt-3 bg-transparent">
 
-              <h5 class="text-capitalize">The Melting of Ice and Climate ChVBGVCSD VDWange: A Global Alarm</h6>
-                <div id="map" style="height: 800px; width:1000"></div>
+              <h5 class="text-capitalize">Interactive Map</h6>
+                <div id="map" style="height: 800px; width:1500px"></div>
 
                 <script>
 
-                  var map = L.map('map').setView([0, 0], 2);
+                  var map = L.map('map').setView([0, 0], 3);
 
                   // Aggiungi una mappa di sfondo (puoi cambiare il provider a tuo piacimento)
                   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; OpenStreetMap contributors'
                   }).addTo(map);
 
-                  // Abilita il plugin Leaflet-GeoJSON-Selector
-                  var selector = L.geoJson.selector({
-                    select: function (event) {
-                      // Azione al clic (puoi aggiungere il reindirizzamento a una pagina qui)
-                      alert("Hai cliccato su un continente: " + event.layer.feature.properties.name);
-                    }
-                  });
+                   // Aggiungi i contorni dei continenti
+                  // Carica il tuo GeoJSON dei continenti tramite AJAX
+                  fetch('../data/continents.geo.json')
+                      .then(response => response.json())
+                      .then(data => {
+                        var selectedLayer = null; // Memorizza il poligono selezionato
 
-                  // Aggiungi i contorni dei continenti
-                  var continentsLayer = L.geoJson(continents, {
-                    style: {
-                      color: 'red'
-                    },
-                    onEachFeature: function (feature, layer) {
-                      layer.bindTooltip(feature.properties.name);
-                    }
-                  }).addTo(map);
+                        // Aggiungi i contorni dei continenti
+                        var continentsLayer = L.geoJson(data, {
+                          style: {
+                            color: 'grey',
+                            fillColor: 'lightblue'
 
-                  // Aggiungi interattività al passaggio del mouse
-                  continentsLayer.on('mouseover', function (e) {
-                    this.setStyle({ fillColor: 'yellow' }); // Cambia il colore al passaggio del mouse
-                  });
+                          },
+                          onEachFeature: function (feature, layer) {
+                            layer.bindTooltip(feature.properties.continent);
+                            layer.on('click', function (event) {
+                              if (selectedLayer) {
+                                    selectedLayer.setStyle({
+                                    fillColor: 'lightblue'
+                                    }); // Ripristina il colore del poligono precedente
+                                }
+                                if (selectedLayer === this) {
+                                    selectedLayer = null; // Deseleziona il poligono se è già stato cliccato
+                                } else {
+                                    this.setStyle({
+                                        fillColor: 'blue'
+                                        }); // Cambia il colore del poligono cliccato
+                                    selectedLayer = this; // Memorizza il poligono selezionato
+                                }
+                              // Recupera il nome del continente
+                              var continentName = feature.properties.continent.toLowerCase().replace(/\s/g, '');
 
-                  continentsLayer.on('mouseout', function (e) {
-                    this.setStyle({ fillColor: 'red' }); // Ripristina il colore originale quando il mouse esce
-                  });
+                              // Costruisci l'URL della pagina del continente
+                              var continentURL = './continents/'+ continentName + '.html';
 
-                  // Collega il plugin selector alla mappa
-                  map.addControl(selector);
-                  selector.addTo(map);
-                </script>
+                              // Reindirizza alla pagina del continente
+                              window.location.href = continentURL;
+
+                            });
+                            layer.on('mouseover', function (event) {
+                              if (this !== selectedLayer) {
+                                    this.setStyle({ fillColor: 'deepskyblue', color:'deepskyblue' }); // Cambia il colore al passaggio del mouse solo se non è selezionato
+                                }
+                            });                            
+                            layer.on('mouseout', function (event) {
+                              if (this !== selectedLayer) {
+                                    this.setStyle({ fillColor: 'lightblue', color:'gray' }); // Ripristina il colore originale solo se non è selezionato
+                                }
+                            });
+                          }
+                        }).addTo(map);
+                      })
+                      .catch(error => console.error('Errore nel caricamento del GeoJSON', error));
+
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  </script>
               </h5>
             </div>
           </div>
         </div>
       </div>
+
+
+
     </div>
     
 

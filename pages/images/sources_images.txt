@@ -4,3 +4,6 @@
 - https://www.worldwildlife.org/media?threat_id=effects-of-climate-change
 - https://www.wwf.org.uk/learn/effects-of/climate-change
 - https://www.wwf.org.uk/wildlife-warming-world
+
+FONTE continents.geo.json
+- https://gist.github.com/cmunns/76fb72646a68202e6bde
