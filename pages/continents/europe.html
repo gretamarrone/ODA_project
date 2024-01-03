@@ -189,16 +189,30 @@
                 <div id="map" style="height: 800px; width:1500px"></div>
 
                 <!-- Nota per info stato -->
-                <div id="info-note" style="position: absolute; top: 100px; left: 100px; background-color: white; padding: 10px; border-radius: 5px; z-index: 1000;">
-                  <h6 style="margin-bottom: 5px;">Info about the country</h6>
-                  <p style="margin-bottom: 0;">Click on a country to visualize data</p>
+                <div id="info-note" style="
+                    position: absolute;
+                    top: 100px;
+                    left: 100px;
+                    background-color: white;
+                    padding: 10px;
+                    border-radius: 5px;
+                    z-index: 1000;
+                    max-height: 600px;
+                    max-width: 400px;
+                    overflow: auto;
+                    
+                ">
+
+
+                  <h6 style="margin-bottom: 5px; ">Info about the country</h6>
+                  <p style="margin-bottom: 0;">Click on a country to visualize data about the co2 emission, from 1998 to 2018.</p>
 
                 </div>
                 
                 </div>
 
 
-                <script src="./json/surface change/Europa.json"></script>
+                <script src="./json/co2_emission.json"></script>
 
 
                 <script>
@@ -206,12 +220,13 @@
                   async function initializeMap() {
                     // Fetch per i dati
                     try {
-                      const response = await fetch('./json/surface change/Europa.json');
+                      const response = await fetch('./json/co2_emission.json');
                       const data = await response.json();
+
 
                       // ... il codice per gestire i dati e visualizzare le informazioni
                       // Puoi assegnare i dati a una variabile globale, come changeData, per usarli in altre parti del codice
-                      changeData = data;
+                      var changeData = data;
 
                       var map = L.map('map').setView([50, 15], 4);
 
@@ -227,6 +242,7 @@
 
                       var selectedLayer = null; // Memorizza il poligono selezionato
 
+
                       // Aggiungi i contorni dei continenti
                       var continentsLayer = L.geoJson(geoJsonData, {
                           style: {
@@ -235,6 +251,10 @@
                           },
                           onEachFeature: function (feature, layer) {
                             layer.bindTooltip(feature.properties.name_en);
+
+
+
+
                             layer.on('click', function (event) {
                                 if (selectedLayer) {
                                     selectedLayer.setStyle({
@@ -242,21 +262,38 @@
 
 
 
-                                  // Codice per prendere info dal json al click sullo stato
-                                      var countryName = feature.properties.iso_a2;
-                                      var countryInfo = changeData.find(country => country && country.ISO2 === countryName);
-                                
+                                    // Codice per prendere info dal json al click sullo stato
+                                    var countryName = feature.properties.iso_a2;
+                                    var countryInfo = changeData.reduce((accumulator, currentCountry) => {
+                                      if (currentCountry && currentCountry.ISO2 === countryName) {
+                                        accumulator.push(currentCountry);
+                                      }
+                                      return accumulator;
+                                    }, []);                                    
+                                    console.log('Country Name:', countryName);
+                                    console.log('Filtered Data:', countryInfo);
+
                                     // codice per prendere info dal json al click sullo stato
-                                    if (countryInfo) {
-                                        document.getElementById('info-note').innerHTML = `
-                                            <h6>${countryInfo.Country}</h6>
-                                            <p>Sum (1961-1999): ${countryInfo['sum from 1961 to 1999']}</p>
-                                            <p>Sum (2000-2022): ${countryInfo['sum from 2000 to 2022']}</p>
-                                            <p>Mean: ${countryInfo.mean}</p>
+                                    if (countryInfo.length > 0) {
+                                      const industriesData = countryInfo.map(info => {
+                                        return Object.entries(info)
+                                          .filter(([key, value]) => key === 'Industry' || key === '98/08')
+                                          .map(([key, value]) => `${key}: ${value} millions of metric tons of CO2`);
+                                      });
+
+                                      document.getElementById('info-note').innerHTML = `
+                                      <h5>${countryInfo[0].Country}</h5>
+                                      <p>CO2 Emission for: ${industriesData.join(' - ')}</p>
                                         `;
-                                    }                        
+                                      } else {
+                                          document.getElementById('info-note').innerHTML = `
+                                              <h5>${feature.properties.name_en}</h5>
+                                              <p>No data available</p>
+                                          `;
+                                      }
+                                  }
+                              
                                 // Ripristina il colore del poligono precedente
-                                }
                                 if (selectedLayer === this) {
                                   selectedLayer.setStyle({
                                     color: 'grey',
@@ -270,18 +307,27 @@
                                         
                                         // Cambia il colore del poligono cliccato
                                     selectedLayer = this; // Memorizza il poligono selezionato
-                                }
+                                   }
                                 });
+
+
+
                             layer.on('mouseover', function (event) {
                                 if (this !== selectedLayer) {
                                     this.setStyle({ fillColor: 'deepskyblue', color:'deepskyblue' }); // Cambia il colore al passaggio del mouse solo se non è selezionato
                                 }
                             });
+
+
+
                             layer.on('mouseout', function (event) {
                                 if (this !== selectedLayer) {
                                     this.setStyle({ fillColor: 'lightblue', color:'gray' }); // Ripristina il colore originale solo se non è selezionato
                                 }
                             });
+
+
+
                           }
                         }).addTo(map);
                       }catch (error) {

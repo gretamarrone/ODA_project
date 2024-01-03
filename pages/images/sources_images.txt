@@ -7,3 +7,9 @@
 
 FONTE continents.geo.json
 - https://gist.github.com/cmunns/76fb72646a68202e6bde
+
+FONTE DATI INDEX
+- https://wmo.int/news/media-centre/2023-shatters-climate-records-major-impacts#:~:text=The%20WMO%20provisional%20State%20of,%2Dindustrial%201850%2D1900%20baseline.
+- https://www.worldweatherattribution.org/climate-change-fuelled-extreme-weather-in-2023-expect-more-records-in-2024/#:~:text=In%202023%2C%20World%20Weather%20Attribution,three%20droughts%20and%20one%20wildfire.
+- https://www.statista.com/statistics/186923/new-investments-worldwide-in-sustainable-energy-by-region/#:~:text=In%202022%2C%20the%20largest%20regional,significant%20on%20a%20global%20scale.
+- https://edition.cnn.com/interactive/2023/12/us/countries-climate-change-emissions-cop28/
