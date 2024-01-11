@@ -13,3 +13,12 @@ FONTE DATI INDEX
 - https://www.worldweatherattribution.org/climate-change-fuelled-extreme-weather-in-2023-expect-more-records-in-2024/#:~:text=In%202023%2C%20World%20Weather%20Attribution,three%20droughts%20and%20one%20wildfire.
 - https://www.statista.com/statistics/186923/new-investments-worldwide-in-sustainable-energy-by-region/#:~:text=In%202022%2C%20the%20largest%20regional,significant%20on%20a%20global%20scale.
 - https://edition.cnn.com/interactive/2023/12/us/countries-climate-change-emissions-cop28/
+
+
+FONTE KEY STATISTICS
+- co2 emission https://climatedata.imf.org/datasets/7cec1228bfbe4a5e876ca5a5abedd64f_0/explore
+- sea https://climatedata.imf.org/datasets/b84a7e25159b4c65ba62d3f82c605855_0/explore
+- disasters https://climatedata.imf.org/datasets/b13b69ee0dde43a99c811f592af4e821_0/explore
+- gdp losses & benefits https://climatedata.imf.org/datasets/b0fe73a0430b47a6bb2723e5ac3231ff_0/explore
+- Annual surface change https://climatedata.imf.org/datasets/4063314923d74187be9596f10d034914_0/explore
+

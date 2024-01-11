@@ -50,13 +50,13 @@
 
 <!-- INIZIO CLASSE INDEX -->
 <body class="g-sidenav-show   bg-gray-100">
-  <div class="min-height-300 bg-primary position-absolute w-100"></div>
+  <div class="position-absolute w-100 min-height-300 top-0" style="background-image: url('../images/ESRF\ FMP\ Banner.jpg'); background-position-y: 50%;"></div>
   <aside class="sidenav bg-white navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-4 " id="sidenav-main">
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href=" https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html " target="_blank">
         <img src="../../assets/img/logo-ct-dark.png" class="navbar-brand-img h-100" alt="main_logo">
-        <span class="ms-1 font-weight-bold">GAMMA Dashboard</span>
+        <span class="ms-1 font-weight-bold">EcoTrendView</span>
       </a>
     </div>
     <hr class="horizontal dark mt-0">
@@ -67,7 +67,7 @@
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
             </div>
-            <span class="nav-link-text ms-1">Dashboard</span>
+            <span class="nav-link-text ms-1">Homepage</span>
           </a>
         </li>
         <li class="nav-item">
@@ -96,20 +96,11 @@
         </li>
 
 
-        <!--
-        <li class="nav-item">
-          <a class="nav-link " href="./pages/rtl.html">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-world-2 text-danger text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">TBD</span>
-          </a>
-        </li>
-      -->
-
         <li class="nav-item mt-3">
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">ABOUT</h6>
         </li>
+
+
 
 
         <li class="nav-item">
@@ -117,19 +108,12 @@
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-single-02 text-dark text-sm opacity-10"></i>
             </div>
-            <span class="nav-link-text ms-1">Contacts</span>
+            <span class="nav-link-text ms-1">Contacts and sources</span>
           </a>
         </li>
 
 
-        <li class="nav-item">
-          <a class="nav-link " href="../sources.html">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-single-copy-04 text-warning text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">Sources</span>
-          </a>
-        </li>
+
       </ul>
     </div>
 
@@ -142,28 +126,15 @@
       <div class="container-fluid py-1 px-3">
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
-            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-white" href="javascript:;">Pages</a></li>
+            <li class="breadcrumb-item text-sm"><a class="opacity-9 text-white">Pages</a></li>
             <li class="breadcrumb-item text-sm text-white active" aria-current="page">Interactive map</li>
           </ol>
-          <h6 class="font-weight-bolder text-white mb-0">North America</h6>
+          <h4 class="font-weight-bolder text-white mb-0">Interactive map</h4>
         </nav>
-        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
-
-          
-          <!-- NAVBAR SEARCH-->
-          <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-            <div class="input-group">
-              <span class="input-group-text text-body"><i class="fas fa-search" aria-hidden="true"></i></span>
-              <input type="text" class="form-control" placeholder="Type here...">
-            </div>
-          </div>
-        </div>
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar"> </div>
       </div>
     </nav>
     <!-- End Navbar -->
-
-
-
 
 
 
@@ -185,75 +156,165 @@
             <div class="card z-index-2 h-100">
               <div class="card-header pb-3 pt-3 bg-transparent">
 
-              <h5 class="text-capitalize">North America</h6>
+              <h3 class="text-capitalize">North America</h3>
                 <div id="map" style="height: 800px; width:1500px"></div>
 
+                <!-- Nota per info stato -->
+                <div id="info-note" style="
+                    position: absolute;
+                    top: 100px;
+                    left: 100px;
+                    background-color: white;
+                    padding: 10px;
+                    border-radius: 5px;
+                    z-index: 1000;
+                    max-height: 600px;
+                    max-width: 400px;
+                    overflow: auto;
+                    
+                ">
+
+
+                  <h5 style="margin-bottom: 5px; ">Info about the country</h5>
+                  <p style="margin-bottom: 0;">Click on a country to visualize data about the Co2 emission, from 1998 to 2018, organized by the differnt industries.</p>
+
+                </div>
+                
+                </div>
+
+
+                <script src="./json/co2_emission.json"></script>
+
+
                 <script>
+                  // Funzione per inizializzare la mappa e gestire i dati
+                  async function initializeMap() {
+                    // Fetch per i dati
+                    try {
+                      const response = await fetch('./json/co2_emission.json');
+                      const data = await response.json();
 
-                  var map = L.map('map').setView([40, -100], 4);
 
-                  // Aggiungi una mappa di sfondo (puoi cambiare il provider a tuo piacimento)
-                  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '&copy; OpenStreetMap contributors'
-                  }).addTo(map);
+                      // ... il codice per gestire i dati e visualizzare le informazioni
+                      // Puoi assegnare i dati a una variabile globale, come changeData, per usarli in altre parti del codice
+                      var changeData = data;
 
-                   // Aggiungi i contorni dei continenti
-                  // Carica il tuo GeoJSON dei continenti tramite AJAX
-                  fetch('./geojson/namerica.geo.json')
-                      .then(response => response.json())
-                      .then(data => {
-                        var selectedLayer = null; // Memorizza il poligono selezionato
+                      var map = L.map('map').setView([40, -100], 4);
 
-                        // Aggiungi i contorni dei continenti
-                        var continentsLayer = L.geoJson(data, {
+                      // Aggiungi una mappa di sfondo (puoi cambiare il provider a tuo piacimento)
+                      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; OpenStreetMap contributors'
+                      }).addTo(map);
+
+                      // Aggiungi i contorni dei continenti
+                      // Carica il tuo GeoJSON dei continenti tramite AJAX
+                      const geoJsonResponse = await fetch('./geojson/namerica.geo.json');
+                      const geoJsonData = await geoJsonResponse.json();
+
+                      var selectedLayer = null; // Memorizza il poligono selezionato
+
+
+                      // Aggiungi i contorni dei continenti
+                      var continentsLayer = L.geoJson(geoJsonData, {
                           style: {
                             color: 'grey',
                             fillColor: 'lightblue'
                           },
                           onEachFeature: function (feature, layer) {
                             layer.bindTooltip(feature.properties.name_en);
+
+
+
+
                             layer.on('click', function (event) {
                                 if (selectedLayer) {
                                     selectedLayer.setStyle({
-                                    fillColor: 'lightblue'
-                                    }); // Ripristina il colore del poligono precedente
-                                }
+                                    fillColor: 'lightblue' }); 
+
+
+
+                                    // Codice per prendere info dal json al click sullo stato
+                                    var countryName = feature.properties.iso_a2;
+                                    var countryInfo = changeData.reduce((accumulator, currentCountry) => {
+                                      if (currentCountry && currentCountry.ISO2 === countryName) {
+                                        accumulator.push(currentCountry);
+                                      }
+                                      return accumulator;
+                                    }, []);                                    
+                                    console.log('Country Name:', countryName);
+                                    console.log('Filtered Data:', countryInfo);
+
+                                    // codice per prendere info dal json al click sullo stato
+                                    if (countryInfo.length > 0) {
+                                      const industriesData = countryInfo.map(info => {
+                                        return Object.entries(info)
+                                          .filter(([key, value]) => key === 'Industry' || key === '98/08')
+                                          .map(([key, value],index, array) => {
+                                            const nextValue = index < array.length - 1 ? array[index + 1][1] : null;
+                                            //const nextValue = nextEntry && typeof nextEntry[1] === 'number' ? nextEntry[1].toFixed(2) : null;
+                                            if (key === 'Industry') {
+                                              return  `<li><b>${value}</b>: ${nextValue} millions of metric tons </li>`;
+                                            }                                          
+                                          });                                           
+                                      });
+
+                                      document.getElementById('info-note').innerHTML = `
+                                      <h5>${countryInfo[0].Country}</h5>
+                                      <p> CO2 Emission for: ${industriesData
+                                        .join(' <br> ')} </p>
+                                        `;
+                                      } else {
+                                          document.getElementById('info-note').innerHTML = `
+                                              <h5>${feature.properties.name_en}</h5>
+                                              <p>No data available</p>
+                                          `;
+                                      }
+                                  }
+                              
+                                // Ripristina il colore del poligono precedente
                                 if (selectedLayer === this) {
-                                    selectedLayer = null; // Deseleziona il poligono se è già stato cliccato
+                                  selectedLayer.setStyle({
+                                    color: 'grey',
+                                    fillColor: 'lightblue'
+                                    }); 
                                 } else {
                                     this.setStyle({
-                                        //color: 'darkblue',
-                                        fillColor: 'blue'
-                                        }); // Cambia il colore del poligono cliccato
+                                        color: 'grey',
+                                        fillColor: 'yellow'
+                                        });
+                                        
+                                        // Cambia il colore del poligono cliccato
                                     selectedLayer = this; // Memorizza il poligono selezionato
-                                }
+                                   }
                                 });
+
+
+
                             layer.on('mouseover', function (event) {
                                 if (this !== selectedLayer) {
                                     this.setStyle({ fillColor: 'deepskyblue', color:'deepskyblue' }); // Cambia il colore al passaggio del mouse solo se non è selezionato
                                 }
                             });
+
+
+
                             layer.on('mouseout', function (event) {
                                 if (this !== selectedLayer) {
                                     this.setStyle({ fillColor: 'lightblue', color:'gray' }); // Ripristina il colore originale solo se non è selezionato
                                 }
                             });
+
+
+
                           }
                         }).addTo(map);
-                      })
-                      .catch(error => console.error('Errore nel caricamento del GeoJSON', error));
-
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  </script>
-              </h5>
+                      }catch (error) {
+                        console.error('Errore nel caricamento dei dati', error);
+                      }
+                    }
+                  // Chiamata alla funzione per inizializzare la mappa
+                  initializeMap();
+                </script>
             </div>
           </div>
         </div>
