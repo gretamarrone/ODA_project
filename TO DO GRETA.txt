@@ -1,9 +1,8 @@
 TO DO:
 - sistemare logo e icone
-- invertire grafici
 - consequences
-- +654 nella dashboard
 - pulizia
+- descrizioni
 
 
 
